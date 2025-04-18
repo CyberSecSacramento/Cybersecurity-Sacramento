@@ -65,6 +65,12 @@ Building a great community requires cooperation, so please work with our [Leader
 For where these rules may fall short, please follow [DEF CON's official Code of Conduct](https://defcon.org/html/links/dc-code-of-conduct.html).
 
 # 12) Hack the planet! 
+
+# 13) Nothing that results in global thermonuclear war or Skynet is permitted.
+
+![image](https://github.com/user-attachments/assets/1af9ae04-1c57-4083-9431-ed3a3a72b264)
+ 
+
 # <-- END CODE OF CONDUCT -->
 ----
 # Closing
