@@ -71,6 +71,11 @@ For where these rules may fall short, please follow [DEF CON's official Code of 
 ![image](https://github.com/user-attachments/assets/1af9ae04-1c57-4083-9431-ed3a3a72b264)
  
 
+# 13) Nothing that results in death, or death at the expense of others is permitted.
+
+![image](https://github.com/user-attachments/assets/b355eded-214d-4ed6-b192-b427e54e5304)
+
+
 # <-- END CODE OF CONDUCT -->
 ----
 # Closing
