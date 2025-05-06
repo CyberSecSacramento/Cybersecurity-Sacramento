@@ -1,0 +1,411 @@
+---
+layout: default
+title: Homelab Resources
+---
+
+# Homelab Resources
+
+<div class="resource-header">
+  <div class="resource-icon">
+    <i class="fas fa-server"></i>
+  </div>
+  <div class="resource-title">
+    <h1>Building Your Security Homelab</h1>
+    <p>Resources for creating your own security testing environment</p>
+  </div>
+</div>
+
+<div class="resource-content">
+  <div class="resource-section">
+    <div class="section-header collapsible">
+      <h2><i class="fas fa-book"></i> Getting Started</h2>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </div>
+    <div class="section-content">
+      <div class="resource-cards">
+        <div class="resource-card placeholder-card">
+          <div class="card-header">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>Homelab Fundamentals</h3>
+          </div>
+          <div class="card-content">
+            <p>This section will contain resources for getting started with your security homelab</p>
+            <div class="placeholder-message">
+              <i class="fas fa-server"></i>
+              <span>Resources coming soon</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="resource-section">
+    <div class="section-header collapsible">
+      <h2><i class="fas fa-tools"></i> Hardware Recommendations</h2>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </div>
+    <div class="section-content">
+      <div class="resource-cards">
+        <div class="resource-card placeholder-card">
+          <div class="card-header">
+            <i class="fas fa-microchip"></i>
+            <h3>Recommended Hardware</h3>
+          </div>
+          <div class="card-content">
+            <p>This section will list recommended hardware for building your security homelab</p>
+            <div class="placeholder-message">
+              <i class="fas fa-server"></i>
+              <span>Hardware recommendations coming soon</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="resource-section">
+    <div class="section-header collapsible">
+      <h2><i class="fas fa-desktop"></i> Virtualization</h2>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </div>
+    <div class="section-content">
+      <div class="resource-cards">
+        <div class="resource-card placeholder-card">
+          <div class="card-header">
+            <i class="fas fa-cubes"></i>
+            <h3>Virtualization Platforms</h3>
+          </div>
+          <div class="card-content">
+            <p>This section will contain resources for virtualization platforms and tools</p>
+            <div class="placeholder-message">
+              <i class="fas fa-desktop"></i>
+              <span>Virtualization resources coming soon</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="resource-section">
+    <div class="section-header collapsible">
+      <h2><i class="fas fa-shield-alt"></i> Security Lab Setups</h2>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </div>
+    <div class="section-content">
+      <div class="resource-cards">
+        <div class="resource-card placeholder-card">
+          <div class="card-header">
+            <i class="fas fa-network-wired"></i>
+            <h3>Security Lab Configurations</h3>
+          </div>
+          <div class="card-content">
+            <p>This section will contain guides for setting up different security lab configurations</p>
+            <div class="placeholder-message">
+              <i class="fas fa-shield-alt"></i>
+              <span>Lab setup guides coming soon</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="resource-section">
+    <div class="section-header collapsible">
+      <h2><i class="fas fa-flask"></i> Practice Environments</h2>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </div>
+    <div class="section-content">
+      <div class="resource-cards">
+        <div class="resource-card placeholder-card">
+          <div class="card-header">
+            <i class="fas fa-bug"></i>
+            <h3>Vulnerable Systems</h3>
+          </div>
+          <div class="card-content">
+            <p>This section will list vulnerable systems and environments for practice</p>
+            <div class="placeholder-message">
+              <i class="fas fa-flask"></i>
+              <span>Practice environments coming soon</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="contribute-section">
+  <h2><i class="fas fa-hands-helping"></i> Contribute Resources</h2>
+  <p>
+    Do you have homelab resources to share with the DC916 community? We're actively collecting high-quality links, tools, and guides for this section.
+  </p>
+  <p>
+    Please reach out to the DC916 team through our <a href="https://discord.gg/Dkn5DZTaGh" target="_blank">Discord</a> or at one of our meetings to contribute your resources.
+  </p>
+</div>
+
+<style>
+/* Resource Page Styles */
+.resource-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  background: rgba(91, 43, 130, 0.2);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--conifer);
+}
+
+.resource-icon {
+  font-size: 3rem;
+  color: var(--conifer);
+  margin-right: 1.5rem;
+}
+
+.resource-title h1 {
+  margin: 0 0 0.5rem 0;
+  color: var(--conifer);
+}
+
+.resource-title p {
+  margin: 0;
+  color: var(--kings-silver);
+  font-size: 1.1rem;
+}
+
+.resource-content {
+  margin-bottom: 2rem;
+}
+
+.resource-section {
+  margin-bottom: 2rem;
+  border: 1px solid rgba(91, 43, 130, 0.3);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Collapsible Section Styles */
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background: rgba(91, 43, 130, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.section-header:hover {
+  background: rgba(91, 43, 130, 0.3);
+}
+
+.section-header h2 {
+  color: var(--kings-silver);
+  margin: 0;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+}
+
+.section-header h2 i {
+  margin-right: 0.75rem;
+  color: var(--conifer);
+}
+
+.toggle-icon {
+  color: var(--conifer);
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.section-header.active .toggle-icon {
+  transform: rotate(180deg);
+}
+
+.section-content {
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Resource Cards Styles */
+.resource-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.resource-card {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--kings-purple);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.resource-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  border-color: var(--conifer);
+}
+
+.card-header {
+  background: rgba(91, 43, 130, 0.3);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.card-header i {
+  font-size: 1.5rem;
+  color: var(--conifer);
+  margin-right: 1rem;
+}
+
+.card-header h3 {
+  margin: 0;
+  color: var(--kings-silver);
+  font-size: 1.1rem;
+}
+
+.card-content {
+  padding: 1rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content p {
+  color: var(--terminal-text);
+  margin: 0 0 1rem 0;
+}
+
+.resource-link {
+  display: inline-flex;
+  align-items: center;
+  background: var(--kings-purple);
+  color: var(--terminal-text);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-top: auto;
+}
+
+.resource-link:hover {
+  background: var(--conifer);
+  color: var(--terminal-background);
+}
+
+.resource-link i {
+  margin-right: 0.5rem;
+}
+
+/* Placeholder Styles */
+.placeholder-card {
+  border-style: dashed;
+}
+
+.placeholder-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  color: var(--kings-silver);
+  text-align: center;
+  margin-top: auto;
+}
+
+.placeholder-message i {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.7;
+}
+
+/* Contribute Section */
+.contribute-section {
+  background: rgba(91, 43, 130, 0.1);
+  border: 1px dashed var(--kings-purple);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 3rem;
+}
+
+.contribute-section h2 {
+  color: var(--conifer);
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.contribute-section h2 i {
+  margin-right: 0.5rem;
+}
+
+.contribute-section p {
+  color: var(--terminal-text);
+  margin-bottom: 1rem;
+}
+
+.contribute-section a {
+  color: var(--conifer);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.contribute-section a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .resource-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .resource-icon {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .resource-cards {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Initialize all sections as expanded
+  const sections = document.querySelectorAll('.section-header');
+  
+  sections.forEach(section => {
+    // Add active class to all sections initially
+    section.classList.add('active');
+    
+    // Add click event listener
+    section.addEventListener('click', function() {
+      this.classList.toggle('active');
+      
+      // Toggle the visibility of the content
+      const content = this.nextElementSibling;
+      if (this.classList.contains('active')) {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } else {
+        content.style.maxHeight = "0";
+      }
+    });
+    
+    // Set initial state (expanded)
+    const content = section.nextElementSibling;
+    content.style.maxHeight = content.scrollHeight + "px";
+    content.style.overflow = "hidden";
+    content.style.transition = "max-height 0.3s ease";
+  });
+});
+</script>

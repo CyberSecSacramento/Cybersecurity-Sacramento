@@ -22,6 +22,7 @@
         --kings-silver: #C4CED4;
         --conifer: #b5e853;
         --terminal-text: #E0E0E0;
+        --terminal-background: #012456;
         --terminal-border: #444;
         --terminal-header: #333;
         --terminal-control-red: #FF5F56;
@@ -286,6 +287,197 @@
         0%, 100% { opacity: 1; }
         50% { opacity: 0; }
       }
+
+      /* Resource Page Preview Styles */
+      .resource-preview {
+        margin-top: 3rem;
+        border: 1px solid var(--kings-purple);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      .resource-preview-header {
+        background: var(--kings-purple);
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+      }
+
+      .resource-preview-header h3 {
+        margin: 0;
+        color: var(--kings-silver);
+      }
+
+      .resource-preview-header i {
+        margin-right: 10px;
+        color: var(--conifer);
+        font-size: 1.5rem;
+      }
+
+      .resource-preview-content {
+        padding: 1.5rem;
+        background: rgba(0, 0, 0, 0.2);
+      }
+
+      /* Resource Header */
+      .resource-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+        background: rgba(91, 43, 130, 0.2);
+        padding: 1.5rem;
+        border-radius: 8px;
+        border-left: 4px solid var(--conifer);
+      }
+
+      .resource-icon {
+        font-size: 3rem;
+        color: var(--conifer);
+        margin-right: 1.5rem;
+      }
+
+      .resource-title h1 {
+        margin: 0 0 0.5rem 0;
+        color: var(--conifer);
+      }
+
+      .resource-title p {
+        margin: 0;
+        color: var(--kings-silver);
+        font-size: 1.1rem;
+      }
+
+      /* Collapsible Section Styles */
+      .section-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        background: rgba(91, 43, 130, 0.2);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+      }
+
+      .section-header:hover {
+        background: rgba(91, 43, 130, 0.3);
+      }
+
+      .section-header h2 {
+        color: var(--kings-silver);
+        margin: 0;
+        font-size: 1.3rem;
+        display: flex;
+        align-items: center;
+      }
+
+      .section-header h2 i {
+        margin-right: 0.75rem;
+        color: var(--conifer);
+      }
+
+      .toggle-icon {
+        color: var(--conifer);
+        font-size: 1.2rem;
+        transition: transform 0.3s ease;
+      }
+
+      .section-header.active .toggle-icon {
+        transform: rotate(180deg);
+      }
+
+      .section-content {
+        padding: 1.5rem;
+        background: rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-bottom: 1.5rem;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+      }
+
+      .section-header.active + .section-content {
+        max-height: 500px;
+      }
+
+      /* Resource Cards */
+      .resource-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1.5rem;
+      }
+
+      .resource-card {
+        background: rgba(0, 0, 0, 0.2);
+        border: 1px solid var(--kings-purple);
+        border-radius: 8px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .resource-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        border-color: var(--conifer);
+      }
+
+      .card-header {
+        background: rgba(91, 43, 130, 0.3);
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+      }
+
+      .card-header i {
+        font-size: 1.5rem;
+        color: var(--conifer);
+        margin-right: 1rem;
+      }
+
+      .card-header h3 {
+        margin: 0;
+        color: var(--kings-silver);
+        font-size: 1.1rem;
+      }
+
+      .card-content {
+        padding: 1rem;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .card-content p {
+        color: var(--terminal-text);
+        margin: 0 0 1rem 0;
+      }
+
+      .resource-link {
+        display: inline-flex;
+        align-items: center;
+        background: var(--kings-purple);
+        color: var(--terminal-text);
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        margin-top: auto;
+        border-bottom: none;
+      }
+
+      .resource-link:hover {
+        background: var(--conifer);
+        color: var(--terminal-background);
+        border-bottom: none;
+      }
+
+      .resource-link i {
+        margin-right: 0.5rem;
+      }
     </style>
   </head>
 
@@ -315,6 +507,7 @@
                 <li><a href="#" class="active"><i class="fas fa-home"></i> Home</a></li>
                 <li><a href="#"><i class="fas fa-folder-open"></i> Directory</a></li>
                 <li><a href="#"><i class="fas fa-code-branch"></i> Projects</a></li>
+                <li><a href="#"><i class="fas fa-book"></i> Resources</a></li>
                 <li><a href="#" target="_blank"><i class="fab fa-discord"></i> Discord</a></li>
               </ul>
             </nav>
@@ -352,6 +545,79 @@
               <li>Custom 404 page</li>
               <li>And much more!</li>
             </ul>
+
+            <!-- Resource Page Preview -->
+            <div class="resource-preview">
+              <div class="resource-preview-header">
+                <i class="fas fa-book"></i>
+                <h3>Resource Page Preview</h3>
+              </div>
+              <div class="resource-preview-content">
+                <div class="resource-header">
+                  <div class="resource-icon">
+                    <i class="fas fa-shield-alt"></i>
+                  </div>
+                  <div class="resource-title">
+                    <h1>Security Resources</h1>
+                    <p>Curated collection of cybersecurity tools, guides, and learning materials</p>
+                  </div>
+                </div>
+
+                <div class="section-header active">
+                  <h2><i class="fas fa-graduation-cap"></i> Learning Resources</h2>
+                  <i class="fas fa-chevron-down toggle-icon"></i>
+                </div>
+                <div class="section-content" style="max-height: 500px;">
+                  <div class="resource-cards">
+                    <div class="resource-card">
+                      <div class="card-header">
+                        <i class="fas fa-book"></i>
+                        <h3>Beginner's Guide</h3>
+                      </div>
+                      <div class="card-content">
+                        <p>Introduction to cybersecurity concepts and terminology</p>
+                        <a href="#" class="resource-link">
+                          <i class="fas fa-external-link-alt"></i> View Resource
+                        </a>
+                      </div>
+                    </div>
+                    <div class="resource-card">
+                      <div class="card-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Hands-on Labs</h3>
+                      </div>
+                      <div class="card-content">
+                        <p>Practice your skills with interactive cybersecurity labs</p>
+                        <a href="#" class="resource-link">
+                          <i class="fas fa-external-link-alt"></i> View Resource
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="section-header">
+                  <h2><i class="fas fa-tools"></i> Security Tools</h2>
+                  <i class="fas fa-chevron-down toggle-icon"></i>
+                </div>
+                <div class="section-content">
+                  <div class="resource-cards">
+                    <div class="resource-card">
+                      <div class="card-header">
+                        <i class="fas fa-bug"></i>
+                        <h3>Vulnerability Scanners</h3>
+                      </div>
+                      <div class="card-content">
+                        <p>Tools for identifying security vulnerabilities in systems and networks</p>
+                        <a href="#" class="resource-link">
+                          <i class="fas fa-external-link-alt"></i> View Tools
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
         </div>
 
@@ -363,5 +629,26 @@
         </footer>
       </div>
     </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Initialize collapsible sections
+        const sections = document.querySelectorAll('.section-header');
+        
+        sections.forEach(section => {
+          section.addEventListener('click', function() {
+            this.classList.toggle('active');
+            
+            // Toggle the visibility of the content
+            const content = this.nextElementSibling;
+            if (this.classList.contains('active')) {
+              content.style.maxHeight = content.scrollHeight + "px";
+            } else {
+              content.style.maxHeight = "0";
+            }
+          });
+        });
+      });
+    </script>
   </body>
 </html>
