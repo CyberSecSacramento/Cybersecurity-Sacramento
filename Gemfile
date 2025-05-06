@@ -1,15 +1,16 @@
 source "https://rubygems.org"
 
-# Jekyll version - using the version installed on the system
+# Jekyll version
 gem "jekyll", "~> 4.2.2"
 
-# For GitHub Pages compatibility when deployed
-# Commented out for local development
-# gem "github-pages", "~> 228", group: :jekyll_plugins
+# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
+# uncomment the line below. To upgrade, run `bundle update github-pages`.
+# gem "github-pages", group: :jekyll_plugins
 
 # Jekyll plugins
 group :jekyll_plugins do
   gem "jekyll-seo-tag", "~> 2.8.0"
+  gem "jekyll-sitemap", "~> 1.4.0"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

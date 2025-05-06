@@ -2,52 +2,42 @@
 
 This document explains how to deploy the website to GitHub Pages.
 
-## Local Development vs. GitHub Pages
+## Local Development and GitHub Pages
 
-The repository contains two Gemfile configurations:
+Our Jekyll configuration is designed to work with both local development and GitHub Pages deployment without requiring any changes between environments.
 
-1. `Gemfile` - Used for local development with Jekyll 4.2.2
-2. `Gemfile.github` - Used for GitHub Pages deployment with Jekyll 3.9.3 and the github-pages gem
+## Deployment Process
 
-## Deploying to GitHub Pages
+To deploy the website to GitHub Pages, follow these steps:
 
-When deploying to GitHub Pages, you need to use the GitHub Pages compatible Gemfile. Follow these steps:
+1. Make sure your changes are committed to the `dev` branch and working correctly locally.
 
-1. Before deploying to GitHub Pages, replace the `Gemfile` with the `Gemfile.github` file:
-
-```bash
-# Backup the local development Gemfile
-mv Gemfile Gemfile.local
-mv Gemfile.lock Gemfile.local.lock
-
-# Use the GitHub Pages Gemfile
-cp Gemfile.github Gemfile
-```
-
-2. Commit and push the changes:
+2. Merge the `dev` branch into the `main` branch:
 
 ```bash
-git add Gemfile
-git commit -m "Update Gemfile for GitHub Pages deployment"
-git push origin dev
+# Switch to the main branch
+git checkout main
+
+# Merge changes from dev branch
+git merge dev
+
+# Push changes to GitHub
+git push origin main
 ```
 
-3. After the site is deployed, you can switch back to the local development Gemfile:
-
-```bash
-# Restore the local development Gemfile
-mv Gemfile.local Gemfile
-mv Gemfile.local.lock Gemfile.lock
-```
+3. GitHub Pages will automatically build and deploy the site from the `main` branch.
 
 ## Configuration
 
 The `_config.yml` file is configured to work with both local development and GitHub Pages. It does not specify a theme, as we're using our own custom theme with our own layout files.
 
+The `Gemfile` is configured to use Jekyll 4.2.2, which works for local development. GitHub Pages will use its own Jekyll environment when building the site.
+
 ## Troubleshooting
 
 If you encounter issues with the GitHub Pages build, check the following:
 
-1. Make sure the `Gemfile` contains the `github-pages` gem
-2. Make sure the `_config.yml` file does not specify a theme that's not supported by GitHub Pages
+1. Make sure the `_config.yml` file does not specify a theme that's not supported by GitHub Pages
+2. Check that all required plugins are listed in the `plugins` section of `_config.yml`
 3. Check the GitHub Pages build logs for any errors
+4. Verify that all files are properly committed to the `main` branch

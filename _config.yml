@@ -8,6 +8,7 @@ baseurl: ""
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Theme customization
 show_downloads: false
