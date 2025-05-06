@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 
-# Jekyll version
-gem "jekyll", "~> 3.9.3"
+# Jekyll version - using the version installed on the system
+gem "jekyll", "~> 4.2.2"
 
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
-gem "github-pages", "~> 228", group: :jekyll_plugins
+# For GitHub Pages compatibility when deployed
+# Commented out for local development
+# gem "github-pages", "~> 228", group: :jekyll_plugins
 
 # Jekyll plugins
 group :jekyll_plugins do
