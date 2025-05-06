@@ -6,31 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
-
-{% seo %}
+    {% seo %}
   </head>
 
   <body>
-
-    <header>
-      <div class="container">
-        <a id="a-title" href="{{ '/' | relative_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        <!-- <section id="downloads">
-          {% if site.show_downloads %}
-            <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
-            <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
-          {% endif %}
-          <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section> -->
+    <div class="terminal-container">
+      <div class="terminal-header">
+        <div class="terminal-controls">
+          <span class="control close"></span>
+          <span class="control minimize"></span>
+          <span class="control maximize"></span>
+        </div>
+        <div class="terminal-title">
+          <span class="prompt">./</span> {{ site.title | default: site.github.repository_name }}
+        </div>
       </div>
-    </header>
-    <div class="container">
-      <section id="main_content">
-        {{ content }}
-      </section>
+
+      <div class="terminal-body">
+        <header>
+          <div class="container">
+            <a id="a-title" href="{{ '/' | relative_url }}">
+              <h1 class="console-effect"><span class="prompt">./</span>{{ site.title | default: site.github.repository_name }}</h1>
+            </a>
+            <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+            
+            <div class="header-content">
+              <nav class="main-nav">
+                <ul>
+                  <li><a href="{{ '/' | relative_url }}"><i class="fas fa-home"></i> Home</a></li>
+                  <li class="dropdown">
+                    <a href="{{ '/Directory' | relative_url }}"><i class="fas fa-folder-open"></i> Directory</a>
+                    <div class="dropdown-content">
+                      <a href="{{ '/CoC' | relative_url }}"><i class="fas fa-scroll"></i> Code of Conduct</a>
+                      <a href="{{ '/Donations' | relative_url }}"><i class="fas fa-hand-holding-heart"></i> Donations</a>
+                      <a href="{{ '/Leadership' | relative_url }}"><i class="fas fa-users-cog"></i> Leadership</a>
+                      <a href="{{ '/Giveaways' | relative_url }}"><i class="fas fa-gift"></i> Giveaway Rules</a>
+                    </div>
+                  </li>
+                  <li class="dropdown">
+                    <a href="{{ '/Projects' | relative_url }}"><i class="fas fa-code-branch"></i> Projects</a>
+                    <div class="dropdown-content">
+                      <a href="{{ '/Projects#road-to-def-con-33' | relative_url }}"><i class="fas fa-road"></i> Road to DEF CON 33</a>
+                      <a href="{{ '/Projects#bsides-sacramento-revival' | relative_url }}"><i class="fas fa-redo"></i> BSides Sacramento Revival</a>
+                    </div>
+                  </li>
+                  <li><a href="https://discord.gg/Dkn5DZTaGh" target="_blank"><i class="fa-brands fa-discord"></i> Discord</a></li>
+                </ul>
+              </nav>
+              
+              <div class="social-icons">
+                <a href="https://twitter.com/CyberSec916" target="_blank" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://instagram.com/cybersec916" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61562053185228" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.threads.net/@cybersec916" target="_blank" title="Threads"><i class="fa-brands fa-threads"></i></a>
+                <a href="https://bsky.app/profile/cybersec916.com" target="_blank" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+                <a href="https://forum.defcon.org/node/231442" target="_blank" title="DEF CON Forums"><i class="fas fa-users"></i></a>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div class="container">
+          <section id="main_content">
+            {{ content }}
+          </section>
+        </div>
+
+        <footer>
+          <div class="container">
+            <p><i class="fas fa-shield-alt"></i> DC916 | Cybersecurity Sacramento</p>
+            <p>Designed with <i class="fas fa-heart"></i> by Kali</p>
+          </div>
+        </footer>
+      </div>
     </div>
+
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
   </body>
 </html>

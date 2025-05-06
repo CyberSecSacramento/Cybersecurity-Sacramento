@@ -1,0 +1,43 @@
+RE Resources:
+
+https://0xinfection.github.io/reversing/
+
+https://beginners.re/
+
+https://github.com/rootkit-io/malware-and-exploitdev-resources
+
+https://institute.sektor7.net/rto-maldev-intermediate
+
+https://x86re.com/
+
+Resource with lots of books, courses, websites and tools for RE of all kinds!
+Fair warning, I have already found some dead links but most seem fine.
+https://github.com/wtsxDev/reverse-engineering
+
+Common tools:
+Ghidra/IDA
+GDB
+Radare2
+OllyDBG
+
+Informational Posts:
+
+Roadmap for RE and Vuln Analysis:
+https://twitter.com/hetmehtaa/status/1821632471571501192?s=46&t=2Xmco5mHR7B-HBvc0WJ6Qg
+
+Intro to x86 by Malcore
+https://twitter.com/malcoreio/status/1836825756170866872?s=46&t=2Xmco5mHR7B-HBvc0WJ6Qg
+
+Intro to embedded devices
+https://twitter.com/0xor0ne/status/1837514650193105207?s=46&t=2Xmco5mHR7B-HBvc0WJ6Qg
+
+Intro to Android App RE
+https://twitter.com/mqst_/status/1839643654870466838?s=46&t=2Xmco5mHR7B-HBvc0WJ6Qg
+
+Malcore buide to WinPE Internals
+https://twitter.com/malcoreio/status/1848063922646942205?s=46&t=2Xmco5mHR7B-HBvc0WJ6Qg
+
+Videos:
+
+Win Internals Crashcourse
+https://youtu.be/I_nJltUokE0

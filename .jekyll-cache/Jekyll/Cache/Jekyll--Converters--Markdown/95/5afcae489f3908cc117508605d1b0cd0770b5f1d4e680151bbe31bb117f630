@@ -1,0 +1,250 @@
+I"P<h1 id="donations"><span class="prompt">./</span>Donations</h1>
+
+<div class="terminal-window">
+  <div class="terminal-header">
+    <div class="terminal-controls">
+      <span class="control close"></span>
+      <span class="control minimize"></span>
+      <span class="control maximize"></span>
+    </div>
+    <div class="terminal-title">
+      <span class="prompt">./</span> support_dc916.sh
+    </div>
+  </div>
+  <div class="terminal-content">
+    <p><span class="prompt">$</span> <span class="command">cat donation_info.txt</span></p>
+    <div class="response">
+      Currently Cybersecurity Sacramento &amp; DC916 does not accept monetary donations. However, we do accept physical or virtual donations such as:
+    </div>
+    
+    <p><span class="prompt">$</span> <span class="command">ls -la accepted_donations/</span></p>
+    <div class="response">
+      <ul class="donation-list">
+        <li><i class="fas fa-tools"></i> Tools</li>
+        <li><i class="fas fa-book"></i> Books</li>
+        <li><i class="fas fa-ticket-alt"></i> Passes/subscriptions to services</li>
+      </ul>
+    </div>
+    
+    <p><span class="prompt">$</span> <span class="command">echo "How to donate?"</span></p>
+    <div class="response">
+      If you'd like to donate something to Cybersecurity Sacramento &amp; DC916, please reach out to our <a href="https://dc916.com/Leadership">Leadership</a>.
+    </div>
+  </div>
+</div>
+
+<div class="sponsor-highlight">
+  <div class="sponsor-header">
+    <i class="fas fa-heart"></i> Support Our Host
+  </div>
+  <div class="sponsor-content">
+    <p>Made Studio has generously provided us with a meeting space. Please consider supporting them!</p>
+    <a href="https://sacmade.com/support/" class="sponsor-button" target="_blank">
+      <i class="fas fa-hand-holding-heart"></i> Donate to Made Studio
+    </a>
+  </div>
+</div>
+
+<div class="donation-faq">
+  <h2><i class="fas fa-question-circle"></i> Donation FAQ</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">
+      <i class="fas fa-caret-right"></i> Why doesn't DC916 accept monetary donations?
+    </div>
+    <div class="faq-answer">
+      As a community-focused group, we prefer to keep things simple and avoid the administrative overhead of managing financial donations. This allows us to focus on our mission of building a strong cybersecurity community in Sacramento.
+    </div>
+  </div>
+  
+  <div class="faq-item">
+    <div class="faq-question">
+      <i class="fas fa-caret-right"></i> What kinds of tools are useful to donate?
+    </div>
+    <div class="faq-answer">
+      Based on our group's focus areas, we appreciate:
+      <ul class="donation-examples">
+        <li><i class="fas fa-microchip"></i> <strong>Hardware:</strong> Raspberry Pis, Arduino boards, ESP32/8266 devices, badge-making components</li>
+        <li><i class="fas fa-broadcast-tower"></i> <strong>Radio/SDR:</strong> Software Defined Radios (SDRs), HackRFs, antennas, RF equipment</li>
+        <li><i class="fas fa-key"></i> <strong>Lock-picking:</strong> Practice locks, pick sets, teaching aids</li>
+        <li><i class="fas fa-server"></i> <strong>Homelab equipment:</strong> Network switches, routers, servers for security testing</li>
+        <li><i class="fas fa-tractor"></i> <strong>AgHacking:</strong> Agricultural IoT devices, sensors, control systems</li>
+        <li><i class="fas fa-industry"></i> <strong>ICS/SCADA:</strong> Industrial control system components, PLCs, HMIs</li>
+        <li><i class="fas fa-wifi"></i> <strong>Wireless:</strong> WiFi adapters with monitor mode, Bluetooth sniffers</li>
+        <li><i class="fas fa-book"></i> <strong>Books:</strong> Texts on malware analysis, reverse engineering, red teaming</li>
+      </ul>
+      These items support our workshops, training sessions, and hands-on projects in reverse engineering, malware analysis, hardware hacking, and other cybersecurity areas.
+    </div>
+  </div>
+  
+  <div class="faq-item">
+    <div class="faq-question">
+      <i class="fas fa-caret-right"></i> How are donations used?
+    </div>
+    <div class="faq-answer">
+      Donations are used for community workshops, training sessions, and to provide resources for members who want to learn but may not have access to certain tools or materials.
+    </div>
+  </div>
+</div>
+
+<style>
+.donation-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.donation-list li {
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--conifer);
+}
+
+.donation-list li i {
+  color: var(--conifer);
+  margin-right: 0.5rem;
+}
+
+.sponsor-highlight {
+  margin: 2rem 0;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--kings-purple);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.sponsor-header {
+  background: var(--kings-purple);
+  color: var(--terminal-text);
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.sponsor-header i {
+  color: var(--conifer);
+  margin-right: 0.5rem;
+}
+
+.sponsor-content {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.sponsor-button {
+  display: inline-block;
+  background: var(--kings-purple);
+  color: var(--terminal-text);
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+
+.sponsor-button:hover {
+  background: var(--conifer);
+  color: var(--terminal-background);
+  transform: translateY(-2px);
+}
+
+.sponsor-button i {
+  margin-right: 0.5rem;
+}
+
+.donation-faq {
+  margin: 2rem 0;
+}
+
+.donation-faq h2 {
+  color: var(--conifer);
+  margin-bottom: 1.5rem;
+}
+
+.donation-faq h2 i {
+  margin-right: 0.5rem;
+}
+
+.faq-item {
+  margin-bottom: 1.5rem;
+  border-left: 2px solid var(--kings-purple);
+  padding-left: 1rem;
+}
+
+.faq-question {
+  font-weight: bold;
+  color: var(--kings-silver);
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.faq-question i {
+  color: var(--conifer);
+  margin-right: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.faq-question:hover i {
+  transform: rotate(90deg);
+}
+
+.faq-answer {
+  padding-left: 1.5rem;
+  border-left: 1px dashed var(--terminal-border);
+}
+
+.donation-examples {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.donation-examples li {
+  margin-bottom: 0.75rem;
+  padding: 0.5rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.donation-examples li:hover {
+  transform: translateX(5px);
+  background: rgba(91, 43, 130, 0.2);
+}
+
+.donation-examples li i {
+  color: var(--conifer);
+  margin-right: 0.5rem;
+  width: 20px;
+  text-align: center;
+}
+
+.donation-examples strong {
+  color: var(--kings-silver);
+  margin-right: 0.5rem;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Add click event to FAQ questions
+  const faqQuestions = document.querySelectorAll('.faq-question');
+  
+  faqQuestions.forEach(question => {
+    question.addEventListener('click', () => {
+      const answer = question.nextElementSibling;
+      const icon = question.querySelector('i');
+      
+      // Toggle answer visibility
+      if (answer.style.display === 'none') {
+        answer.style.display = 'block';
+        icon.style.transform = 'rotate(90deg)';
+      } else {
+        answer.style.display = 'none';
+        icon.style.transform = 'rotate(0)';
+      }
+    });
+  });
+});
+</script>
+
+:ET

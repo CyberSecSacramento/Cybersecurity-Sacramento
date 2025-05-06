@@ -1,0 +1,92 @@
+I"±<div class="error-container">
+  <div class="error-code">404</div>
+  <h1>ACCESS DENIED</h1>
+  
+  <div class="terminal-output">
+    <p><span class="prompt">$</span> <span class="command">locate requested_page</span></p>
+    <p class="response">locate: no results found</p>
+    <p><span class="prompt">$</span> <span class="command">sudo find / -name requested_page</span></p>
+    <p class="response">find: No such file or directory</p>
+    <p><span class="prompt">$</span> <span class="command">echo "The page you are looking for does not exist or has been moved."</span></p>
+    <p class="response">The page you are looking for does not exist or has been moved.</p>
+    <p><span class="prompt">$</span> <span class="command">cd /home</span></p>
+    <p class="response">Redirecting to home page in 5 seconds...</p>
+  </div>
+  
+  <div class="error-actions">
+    <a href="/" class="home-link">
+      <i class="fas fa-home"></i> Return to Home
+    </a>
+  </div>
+</div>
+
+<script>
+  // Redirect to home page after 5 seconds
+  setTimeout(function() {
+    window.location.href = "/";
+  }, 5000);
+</script>
+
+<style>
+  .error-container {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .error-code {
+    font-size: 8rem;
+    font-weight: bold;
+    color: var(--kings-purple);
+    text-shadow: 0 0 10px rgba(181, 232, 83, 0.7);
+    margin-bottom: 1rem;
+  }
+  
+  .terminal-output {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    max-width: 600px;
+    text-align: left;
+    font-family: 'Fira Code', monospace;
+  }
+  
+  .prompt {
+    color: var(--conifer);
+    margin-right: 0.5rem;
+  }
+  
+  .command {
+    color: var(--kings-silver);
+  }
+  
+  .response {
+    color: var(--terminal-text);
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .error-actions {
+    margin-top: 2rem;
+  }
+  
+  .home-link {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: var(--kings-purple);
+    color: white;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .home-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+  }
+</style>
+
+:ET

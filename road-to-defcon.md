@@ -1,0 +1,1825 @@
+---
+layout: default
+title: Road to DEF CON 33
+---
+
+# The Road to DEF CON 33
+
+<div class="defcon-header">
+  <div class="defcon-logo">
+    <i class="fas fa-skull-crossbones"></i> DEF CON 33
+  </div>
+  <div class="defcon-details">
+    <div class="detail-item">
+      <i class="fas fa-calendar-alt"></i> August 7-10, 2025
+    </div>
+    <div class="detail-item">
+      <i class="fas fa-map-marker-alt"></i> Las Vegas Convention Center
+    </div>
+    <div class="detail-item">
+      <i class="fas fa-map-pin"></i> 3150 Paradise Rd, Las Vegas, NV 89109
+    </div>
+  </div>
+</div>
+
+<div class="interactive-map">
+  <div class="map-timeline">
+    <div class="timeline-item active" data-target="prep-phase">
+      <div class="timeline-icon"><i class="fas fa-laptop-code"></i></div>
+      <div class="timeline-label">Preparation</div>
+    </div>
+    <div class="timeline-item" data-target="travel-phase">
+      <div class="timeline-icon"><i class="fas fa-plane"></i></div>
+      <div class="timeline-label">Travel</div>
+    </div>
+    <div class="timeline-item" data-target="event-phase">
+      <div class="timeline-icon"><i class="fas fa-users"></i></div>
+      <div class="timeline-label">At DEF CON</div>
+    </div>
+    <div class="timeline-item" data-target="post-phase">
+      <div class="timeline-icon"><i class="fas fa-share-alt"></i></div>
+      <div class="timeline-label">Post-Event</div>
+    </div>
+  </div>
+  
+  <div class="map-content">
+    <div class="map-panel active" id="prep-phase">
+      <h2><i class="fas fa-laptop-code"></i> Preparation Phase</h2>
+      
+      <div class="registration-info">
+        <h3><i class="fas fa-ticket-alt"></i> Registration Options</h3>
+        <div class="reg-option">
+          <div class="reg-badge early">Early Bird</div>
+          <div class="reg-details">
+            <div class="reg-price">$540 USD</div>
+            <div class="reg-deadline">Until May 23, 2025</div>
+          </div>
+        </div>
+        <div class="reg-option">
+          <div class="reg-badge regular">Regular</div>
+          <div class="reg-details">
+            <div class="reg-price">$560 USD</div>
+            <div class="reg-deadline">May 24 - July 18, 2025</div>
+          </div>
+        </div>
+        <div class="reg-option">
+          <div class="reg-badge late">Late</div>
+          <div class="reg-details">
+            <div class="reg-price">$580 USD</div>
+            <div class="reg-deadline">July 19 - August 1, 2025</div>
+          </div>
+        </div>
+        <div class="reg-option">
+          <div class="reg-badge onsite">On-site</div>
+          <div class="reg-details">
+            <div class="reg-price">$500 USD (Cash Only)</div>
+            <div class="reg-deadline">At the event</div>
+          </div>
+        </div>
+        <div class="reg-note">
+          <i class="fas fa-info-circle"></i> DEF CON is cash-only at the door. No credit cards accepted on-site.
+        </div>
+      </div>
+      
+      <div class="training-info">
+        <h3><i class="fas fa-graduation-cap"></i> DEF CON Training</h3>
+        <p>DEF CON Training runs August 9-12, 2025 at the Las Vegas Convention Center.</p>
+        <div class="training-highlight">
+          <i class="fas fa-tag"></i> Early Bird Discount: $200 off all trainings until May 31, 2025
+        </div>
+        <p>There will be an evening social mixer for trainers and students on August 11, hosted by Jeff Moss and Seeyew Mo.</p>
+        <a href="https://defcon.org/html/defcon-33/dc-33-index.html" class="defcon-link" target="_blank">
+          <i class="fas fa-external-link-alt"></i> More Training Info
+        </a>
+      </div>
+      
+      <div class="collapsible-section venue-info">
+        <div class="section-header">
+          <h3><i class="fas fa-building"></i> Venue Information</h3>
+          <button class="toggle-btn"><i class="fas fa-chevron-down"></i></button>
+        </div>
+        <div class="section-synopsis">
+          <p>DEF CON 33 will be held at the Las Vegas Convention Center (LVCC) West Hall, with official hotel blocks at the Venetian, Sahara, and Fontainebleau. The venue offers approximately 800,000 square feet of space with all villages, contests, talks, and events under one roof.</p>
+        </div>
+        <div class="section-content">
+          <div class="venue-details">
+            <div class="venue-text">
+              <h4>Las Vegas Convention Center - West Hall</h4>
+              <p><i class="fas fa-map-marker-alt"></i> 3150 Paradise Road, Las Vegas, NV 89109</p>
+              <p>The LVCC will open each day by 08:00, and close Thursday through Saturday at 02:30. Sunday will close after closing ceremonies, typically around 18:00 (Pacific Time).</p>
+            </div>
+          </div>
+          
+          <div class="collapsible-subsection">
+            <div class="subsection-header">
+              <h4><i class="fas fa-hotel"></i> Official Hotel Room Blocks</h4>
+              <button class="toggle-btn-small"><i class="fas fa-chevron-down"></i></button>
+            </div>
+            <div class="subsection-content">
+              <div class="hotel-grid">
+                <div class="hotel-item">
+                  <i class="fas fa-building"></i>
+                  <h5>Venetian</h5>
+                  <a href="https://book.passkey.com/go/RDCON" class="hotel-link" target="_blank">Book Now</a>
+                </div>
+                <div class="hotel-item">
+                  <i class="fas fa-building"></i>
+                  <h5>Sahara</h5>
+                  <a href="https://book.passkey.com/e/50911722" class="hotel-link" target="_blank">Book Now</a>
+                </div>
+                <div class="hotel-item">
+                  <i class="fas fa-building"></i>
+                  <h5>Fontainebleau</h5>
+                  <a href="https://book.passkey.com/go/DefCon2025FBLV" class="hotel-link" target="_blank">Book Now</a>
+                  <p class="hotel-note">Or call (833) 702-7272 from 06:00-22:00 daily</p>
+                </div>
+              </div>
+              <div class="hotel-note">
+                <i class="fas fa-info-circle"></i> Booking through the official room blocks helps support DEF CON and often includes special rates and amenities.
+              </div>
+            </div>
+          </div>
+          
+          <div class="collapsible-subsection">
+            <div class="subsection-header">
+              <h4><i class="fas fa-shuttle-van"></i> Transportation Options</h4>
+              <button class="toggle-btn-small"><i class="fas fa-chevron-down"></i></button>
+            </div>
+            <div class="subsection-content">
+              <div class="transport-item">
+                <h5><i class="fas fa-train"></i> Las Vegas Monorail</h5>
+                <p>The Las Vegas Monorail provides a quick connection along the Strip, with trains arriving every 4-8 minutes at seven stations including the Las Vegas Convention Center.</p>
+                <p>Hours: Monday 7am-midnight; Tuesday-Thursday 7am-2am; Friday-Sunday 7am-3am</p>
+              </div>
+              
+              <div class="transport-item">
+                <h5><i class="fas fa-car-tunnel"></i> LVCC Loop</h5>
+                <p>The Las Vegas Convention Center Loop is an underground transportation system that quickly transports passengers throughout the 200-acre campus using Tesla vehicles. It reduces a 25-minute walk to less than a two-minute ride.</p>
+                <p>Access via three stations: West Station (near West Hall), Central Station, and South Station.</p>
+              </div>
+              
+              <div class="transport-item">
+                <h5><i class="fas fa-taxi"></i> Taxis & Rideshares</h5>
+                <p>For taxis, go to the West Convention Center entrance: 3150 Paradise Road</p>
+                <p>Estimated taxi fare from airport to LVCC: ~$29</p>
+                <p>Rideshare (Uber/Lyft): ~$20-25 to the Strip</p>
+              </div>
+              
+              <div class="transport-item">
+                <h5><i class="fas fa-parking"></i> Parking</h5>
+                <p>Parking is available at the LVCC, with the closest options being the Diamond and Silver lots.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="collapsible-subsection">
+            <div class="subsection-header">
+              <h4><i class="fas fa-concierge-bell"></i> Venue Amenities & Health</h4>
+              <button class="toggle-btn-small"><i class="fas fa-chevron-down"></i></button>
+            </div>
+            <div class="subsection-content">
+              <div class="venue-amenities">
+                <h5><i class="fas fa-concierge-bell"></i> Amenities</h5>
+                <ul>
+                  <li><i class="fas fa-water"></i> Water fountains and modern bottle filling stations throughout all 3 floors (bring your bottles!)</li>
+                  <li><i class="fas fa-couch"></i> Multiple chill-out areas for attendees to sit, rest, hack, and socialize</li>
+                  <li><i class="fas fa-utensils"></i> Exclusive food court with options including Dunkin' Express, Metro Pizza, Brand Burgers & Fries, Fancy Wok Asian Kitchen, Go Natural, and The Roost Farm Fresh Chicken</li>
+                  <li><i class="fas fa-wifi"></i> Secure DEF CON WiFi provided by the DEF CON NOC team</li>
+                </ul>
+              </div>
+              
+              <div class="health-safety">
+                <h5><i class="fas fa-heartbeat"></i> Health & Safety</h5>
+                <ul>
+                  <li>LVCC air filters have a quality rating of MERV 13 with increased replacement rate</li>
+                  <li>Masks strongly recommended (masks will be available on-site)</li>
+                  <li>Test kits available on-site with resources for testing and treatment</li>
+                  <li>ADA assistance available through Las Vegas Convention and Visitors Authority (702-892-0711)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="prep-checklist">
+        <h3><i class="fas fa-tasks"></i> Preparation Checklist</h3>
+        <div class="checklist-item">
+          <input type="checkbox" id="check-tickets">
+          <label for="check-tickets">Register for DEF CON (online or plan for cash on-site)</label>
+        </div>
+        <div class="checklist-item">
+          <input type="checkbox" id="check-hotel">
+          <label for="check-hotel">Book hotel accommodations through official room blocks</label>
+        </div>
+        <div class="checklist-item">
+          <input type="checkbox" id="check-flight">
+          <label for="check-flight">Arrange transportation to Las Vegas</label>
+        </div>
+        <div class="checklist-item">
+          <input type="checkbox" id="check-training">
+          <label for="check-training">Consider DEF CON Training (Early Bird until May 31)</label>
+        </div>
+        <div class="checklist-item">
+          <input type="checkbox" id="check-gear">
+          <label for="check-gear">Prepare your gear (laptop, batteries, chargers, etc.)</label>
+        </div>
+        <div class="checklist-item">
+          <input type="checkbox" id="check-badge">
+          <label for="check-badge">Create a custom badge or swag to share</label>
+        </div>
+        <div class="checklist-item">
+          <input type="checkbox" id="check-cash">
+          <label for="check-cash">Bring cash for purchases (many vendors are cash-only)</label>
+        </div>
+        <div class="checklist-item">
+          <input type="checkbox" id="check-water">
+          <label for="check-water">Bring a refillable water bottle for the water stations</label>
+        </div>
+        <div class="checklist-item">
+          <input type="checkbox" id="check-schedule">
+          <label for="check-schedule">Plan which villages and talks to attend</label>
+        </div>
+      </div>
+    </div>
+    
+    <div class="map-panel" id="travel-phase">
+      <h2><i class="fas fa-plane"></i> Travel Phase</h2>
+      
+      <div class="travel-tips">
+        <h3><i class="fas fa-suitcase"></i> Travel Tips</h3>
+        <ul>
+          <li><i class="fas fa-shield-alt"></i> Secure your devices before travel (full disk encryption, updates)</li>
+          <li><i class="fas fa-wifi"></i> Be cautious with public WiFi - use a VPN</li>
+          <li><i class="fas fa-tshirt"></i> Pack for variable temperatures (conference rooms can be cold)</li>
+          <li><i class="fas fa-water"></i> Stay hydrated - Vegas is hot in August!</li>
+          <li><i class="fas fa-first-aid"></i> Bring basic medications and a first aid kit</li>
+          <li><i class="fas fa-battery-full"></i> Pack extra batteries and power banks</li>
+        </ul>
+      </div>
+      
+      <div class="vegas-info">
+        <h3><i class="fas fa-city"></i> Las Vegas Information</h3>
+        <p>Average August temperature: 90-105°F (32-40°C)</p>
+        <p>Transportation options from McCarran International Airport:</p>
+        <ul>
+          <li>Taxi: ~$25-30 to the Strip</li>
+          <li>Rideshare (Uber/Lyft): ~$20-25 to the Strip</li>
+          <li>Shuttle: ~$15 per person</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="map-panel" id="event-phase">
+      <h2><i class="fas fa-users"></i> At DEF CON</h2>
+      
+      <div class="collapsible-section villages-section">
+        <div class="section-header">
+          <h3><i class="fas fa-map"></i> Villages to Explore</h3>
+          <button class="toggle-btn"><i class="fas fa-chevron-down"></i></button>
+        </div>
+        <div class="section-synopsis">
+          <p>Explore over 30 specialized villages covering topics from AI and aerospace to hardware hacking and voting security. Each village offers hands-on experiences, talks, and demonstrations from experts in their respective fields.</p>
+        </div>
+        <div class="section-content villages-grid">
+          <a href="https://adversaryvillage.org/" class="village-item" target="_blank">
+            <i class="fas fa-user-secret"></i>
+            <span>Adversary Village</span>
+          </a>
+          <a href="https://www.aerospacevillage.org/" class="village-item" target="_blank">
+            <i class="fas fa-space-shuttle"></i>
+            <span>Aerospace Village</span>
+          </a>
+          <a href="https://aivillage.org/" class="village-item" target="_blank">
+            <i class="fas fa-robot"></i>
+            <span>AI Village</span>
+          </a>
+          <a href="https://www.appsecvillage.com/" class="village-item" target="_blank">
+            <i class="fas fa-shield-alt"></i>
+            <span>AppSec Village</span>
+          </a>
+          <a href="https://aicyberchallenge.com/" class="village-item" target="_blank">
+            <i class="fas fa-brain"></i>
+            <span>AI Cyber Challenge</span>
+          </a>
+          <a href="https://villageb.io/" class="village-item" target="_blank">
+            <i class="fas fa-dna"></i>
+            <span>Biohacking Village</span>
+          </a>
+          <a href="http://www.blacksincyberconf.com/bic-village" class="village-item" target="_blank">
+            <i class="fas fa-users"></i>
+            <span>Blacks In Cyber</span>
+          </a>
+          <a href="https://blueteamvillage.org/" class="village-item" target="_blank">
+            <i class="fas fa-user-shield"></i>
+            <span>Blue Team Village</span>
+          </a>
+          <a href="https://bugbountydefcon.com/" class="village-item" target="_blank">
+            <i class="fas fa-bug"></i>
+            <span>Bug Bounty Village</span>
+          </a>
+          <a href="https://www.carhackingvillage.com" class="village-item" target="_blank">
+            <i class="fas fa-car"></i>
+            <span>Car Hacking Village</span>
+          </a>
+          <a href="https://dc33.cloud-village.org" class="village-item" target="_blank">
+            <i class="fas fa-cloud"></i>
+            <span>Cloud Village</span>
+          </a>
+          <a href="https://cryptovillage.org/" class="village-item" target="_blank">
+            <i class="fas fa-lock"></i>
+            <span>Crypto Privacy Village</span>
+          </a>
+          <a href="https://dcddv.org/" class="village-item" target="_blank">
+            <i class="fas fa-copy"></i>
+            <span>Data Duplication Village</span>
+          </a>
+          <a href="https://embeddedvillage.org/" class="village-item" target="_blank">
+            <i class="fas fa-microchip"></i>
+            <span>Embedded Systems Village</span>
+          </a>
+          <a href="https://gamehacking.gg" class="village-item" target="_blank">
+            <i class="fas fa-gamepad"></i>
+            <span>GameHacking.GG</span>
+          </a>
+          <a href="https://hamvillage.org/" class="village-item" target="_blank">
+            <i class="fas fa-broadcast-tower"></i>
+            <span>Ham Radio Village</span>
+          </a>
+          <a href="https://dchhv.org/" class="village-item" target="_blank">
+            <i class="fas fa-microchip"></i>
+            <span>Hardware Hacking</span>
+          </a>
+          <a href="https://www.icsvillage.com/" class="village-item" target="_blank">
+            <i class="fas fa-cogs"></i>
+            <span>ICS Village</span>
+          </a>
+          <a href="https://iotvillage.org/defcon.html" class="village-item" target="_blank">
+            <i class="fas fa-wifi"></i>
+            <span>IoT Village</span>
+          </a>
+          <a href="https://www.toool.us/" class="village-item" target="_blank">
+            <i class="fas fa-key"></i>
+            <span>Lock Pick Village</span>
+          </a>
+          <a href="https://malwarevillage.org/" class="village-item" target="_blank">
+            <i class="fas fa-bug"></i>
+            <span>Malware Village</span>
+          </a>
+          <a href="https://maritimehackingvillage.com/" class="village-item" target="_blank">
+            <i class="fas fa-ship"></i>
+            <span>Maritime Hacking</span>
+          </a>
+          <a href="https://www.wallofsheep.com" class="village-item" target="_blank">
+            <i class="fas fa-network-wired"></i>
+            <span>Packet Hacking</span>
+          </a>
+          <a href="https://www.paymentvillage.org/" class="village-item" target="_blank">
+            <i class="fas fa-credit-card"></i>
+            <span>Payment Village</span>
+          </a>
+          <a href="https://physsec.org" class="village-item" target="_blank">
+            <i class="fas fa-door-closed"></i>
+            <span>Physical Security Village</span>
+          </a>
+          <a href="https://defcon.org/policy/" class="village-item" target="_blank">
+            <i class="fas fa-gavel"></i>
+            <span>Policy Village</span>
+          </a>
+          <a href="https://quantumvillage.org/" class="village-item" target="_blank">
+            <i class="fas fa-atom"></i>
+            <span>Quantum Village</span>
+          </a>
+          <a href="https://rfhackers.com/" class="village-item" target="_blank">
+            <i class="fas fa-broadcast-tower"></i>
+            <span>Radio Frequency Village</span>
+          </a>
+          <a href="https://reconvillage.org/" class="village-item" target="_blank">
+            <i class="fas fa-search"></i>
+            <span>Recon Village</span>
+          </a>
+          <a href="https://redteamvillage.io/" class="village-item" target="_blank">
+            <i class="fas fa-flag"></i>
+            <span>Red Team Village</span>
+          </a>
+          <a href="https://www.se.community/" class="village-item" target="_blank">
+            <i class="fas fa-user-ninja"></i>
+            <span>Social Engineering Village</span>
+          </a>
+          <a href="https://telecomvillage.com/" class="village-item" target="_blank">
+            <i class="fas fa-phone"></i>
+            <span>Telecom Village</span>
+          </a>
+          <a href="https://votingvillage.org/" class="village-item" target="_blank">
+            <i class="fas fa-vote-yea"></i>
+            <span>Voting Village</span>
+          </a>
+        </div>
+        <div class="village-more">
+          <i class="fas fa-ellipsis-h"></i> And many more!
+        </div>
+      </div>
+      
+      <div class="collapsible-section contests-section">
+        <div class="section-header">
+          <h3><i class="fas fa-trophy"></i> Contests to Participate</h3>
+          <button class="toggle-btn"><i class="fas fa-chevron-down"></i></button>
+        </div>
+        <div class="section-synopsis">
+          <p>Test your skills in over 20 different competitions ranging from capture the flag and cryptography challenges to hardware hacking and social engineering contests. DEF CON contests offer something for every skill level and interest.</p>
+        </div>
+        <div class="section-content villages-grid">
+          <a href="https://www.ctf.paymentvillage.org/" class="village-item" target="_blank">
+            <i class="fas fa-money-bill"></i>
+            <span>Capture the Coin</span>
+          </a>
+          <a href="https://phreakme.com" class="village-item" target="_blank">
+            <i class="fas fa-phone"></i>
+            <span>PhreakMe</span>
+          </a>
+          <a href="https://darknet-ng.network/" class="village-item" target="_blank">
+            <i class="fas fa-mask"></i>
+            <span>Darknet-NG</span>
+          </a>
+          <a href="https://www.ariessecurity.com" class="village-item" target="_blank">
+            <i class="fas fa-network-wired"></i>
+            <span>Capture the Packet</span>
+          </a>
+          <a href="https://www.carhackingvillage.com" class="village-item" target="_blank">
+            <i class="fas fa-car-crash"></i>
+            <span>Car Hacking CTF</span>
+          </a>
+          <a href="https://dc33.cloud-village.org" class="village-item" target="_blank">
+            <i class="fas fa-cloud"></i>
+            <span>Cloud Village CTF</span>
+          </a>
+          <a href="https://contest.korelogic.com" class="village-item" target="_blank">
+            <i class="fas fa-key"></i>
+            <span>Crack Me If You Can</span>
+          </a>
+          <a href="https://aicyberchallenge.com/" class="village-item" target="_blank">
+            <i class="fas fa-robot"></i>
+            <span>AI Cyber Challenge</span>
+          </a>
+          <a href="https://threatmodel.us" class="village-item" target="_blank">
+            <i class="fas fa-project-diagram"></i>
+            <span>DC's Next Top Threat Model</span>
+          </a>
+          <a href="http://dcbeard.net/" class="village-item" target="_blank">
+            <i class="fas fa-cut"></i>
+            <span>Beard and Mustache Contest</span>
+          </a>
+          <a href="https://defcon.wtf" class="village-item" target="_blank">
+            <i class="fas fa-gamepad"></i>
+            <span>DEF CON MUD</span>
+          </a>
+          <a href="https://www.defconscavhunt.com/" class="village-item" target="_blank">
+            <i class="fas fa-search"></i>
+            <span>Scavenger Hunt</span>
+          </a>
+          <a href="https://embeddedvillage.org/" class="village-item" target="_blank">
+            <i class="fas fa-microchip"></i>
+            <span>Embedded CTF</span>
+          </a>
+          <a href="https://goldbug.cryptovillage.org/" class="village-item" target="_blank">
+            <i class="fas fa-puzzle-piece"></i>
+            <span>The Gold Bug</span>
+          </a>
+          <a href="https://hacktheplanet.ctfd.io/" class="village-item" target="_blank">
+            <i class="fas fa-industry"></i>
+            <span>ICS Village CTF</span>
+          </a>
+          <a href="https://dchhv.org/challenges/" class="village-item" target="_blank">
+            <i class="fas fa-hammer"></i>
+            <span>Hardware Hacking CTF</span>
+          </a>
+          <a href="https://www.mirolabs.info/octopus-game-dc" class="village-item" target="_blank">
+            <i class="fas fa-water"></i>
+            <span>Octopus Game</span>
+          </a>
+          <a href="https://www.eff.org/poker" class="village-item" target="_blank">
+            <i class="fas fa-hand-spock"></i>
+            <span>EFF Poker Tournament</span>
+          </a>
+          <a href="https://www.blacksincyberconf.com/ctf" class="village-item" target="_blank">
+            <i class="fas fa-flag"></i>
+            <span>BIC Village CTF</span>
+          </a>
+          <a href="https://ctf.blueteamvillage.org" class="village-item" target="_blank">
+            <i class="fas fa-shield-alt"></i>
+            <span>Blue Team Village CTF</span>
+          </a>
+        </div>
+        <div class="village-more">
+          <i class="fas fa-ellipsis-h"></i> And many more exciting contests!
+        </div>
+      </div>
+      
+      <div class="collapsible-section communities-section">
+        <div class="section-header">
+          <h3><i class="fas fa-users"></i> Communities to Connect</h3>
+          <button class="toggle-btn"><i class="fas fa-chevron-down"></i></button>
+        </div>
+        <div class="section-synopsis">
+          <p>Connect with diverse hacker communities from around the world, including groups focused on specific demographics, interests, and technologies. These communities provide spaces for networking, learning, and finding your people within the larger DEF CON experience.</p>
+        </div>
+        <div class="section-content villages-grid">
+          <a href="https://dcnextgen.org" class="village-item" target="_blank">
+            <i class="fas fa-child"></i>
+            <span>DC NextGen</span>
+          </a>
+          <a href="http://defcongroups.org" class="village-item" target="_blank">
+            <i class="fas fa-globe"></i>
+            <span>DEF CON Groups</span>
+          </a>
+          <a href="https://dcgvr.org" class="village-item" target="_blank">
+            <i class="fas fa-vr-cardboard"></i>
+            <span>DEF CON Groups VR</span>
+          </a>
+          <a href="https://defcon.org/html/links/dc-hda.html" class="village-item" target="_blank">
+            <i class="fas fa-universal-access"></i>
+            <span>Hackers With Disabilities</span>
+          </a>
+          <a href="https://www.hardhat.rocks" class="village-item" target="_blank">
+            <i class="fas fa-hard-hat"></i>
+            <span>Hard Hat Brigade</span>
+          </a>
+          <a href="https://lavillahacker.com/" class="village-item" target="_blank">
+            <i class="fas fa-language"></i>
+            <span>La Villa</span>
+          </a>
+          <a href="http://lonelyhackers.club/" class="village-item" target="_blank">
+            <i class="fas fa-user-friends"></i>
+            <span>Lonely Hackers Club</span>
+          </a>
+          <a href="https://retrotech.club/" class="village-item" target="_blank">
+            <i class="fas fa-desktop"></i>
+            <span>Retro Tech</span>
+          </a>
+          <a href="https://www.dianainitiative.org/" class="village-item" target="_blank">
+            <i class="fas fa-moon"></i>
+            <span>Diana Initiative</span>
+          </a>
+          <a href="https://vetconactual.com/" class="village-item" target="_blank">
+            <i class="fas fa-medal"></i>
+            <span>VETCON</span>
+          </a>
+          <a href="https://www.wisporg.com/" class="village-item" target="_blank">
+            <i class="fas fa-venus"></i>
+            <span>Women in Security</span>
+          </a>
+          <a href="https://queercon.org" class="village-item" target="_blank">
+            <i class="fas fa-rainbow"></i>
+            <span>Queercon</span>
+          </a>
+          <a href="https://dcmakerscommunity.com" class="village-item" target="_blank">
+            <i class="fas fa-tools"></i>
+            <span>DC Maker's Community</span>
+          </a>
+          <a href="https://cryptocurrencyvillage.cc" class="village-item" target="_blank">
+            <i class="fas fa-coins"></i>
+            <span>Cryptocurrency</span>
+          </a>
+          <a href="https://edudefcon.com" class="village-item" target="_blank">
+            <i class="fas fa-graduation-cap"></i>
+            <span>.edu Community</span>
+          </a>
+          <a href="https://badge.life" class="village-item" target="_blank">
+            <i class="fas fa-id-badge"></i>
+            <span>Badgelife</span>
+          </a>
+        </div>
+        <div class="village-more">
+          <i class="fas fa-ellipsis-h"></i> And many more communities!
+        </div>
+      </div>
+      
+      <div class="event-tips">
+        <h3><i class="fas fa-lightbulb"></i> During the Event</h3>
+        <ul>
+          <li><i class="fas fa-clock"></i> Arrive early for popular talks</li>
+          <li><i class="fas fa-battery-three-quarters"></i> Keep devices charged</li>
+          <li><i class="fas fa-network-wired"></i> Be cautious on the DEF CON network</li>
+          <li><i class="fas fa-handshake"></i> Network and make connections</li>
+          <li><i class="fas fa-calendar-check"></i> Check the schedule daily for changes</li>
+          <li><i class="fas fa-water"></i> Stay hydrated and take breaks</li>
+        </ul>
+      </div>
+      
+      <div class="community-links">
+        <h3><i class="fas fa-link"></i> Community Resources</h3>
+        <div class="link-buttons">
+          <a href="https://forum.defcon.org/" class="community-link" target="_blank">
+            <i class="fas fa-comments"></i> Forums
+          </a>
+          <a href="https://discord.gg/defcon" class="community-link" target="_blank">
+            <i class="fab fa-discord"></i> Discord
+          </a>
+          <a href="https://defcon.social/" class="community-link" target="_blank">
+            <i class="fab fa-mastodon"></i> Mastodon
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="map-panel" id="post-phase">
+      <h2><i class="fas fa-share-alt"></i> Post-Event</h2>
+      
+      <div class="post-event-tips">
+        <h3><i class="fas fa-clipboard-list"></i> After DEF CON</h3>
+        <ul>
+          <li><i class="fas fa-share-alt"></i> Share your experience with the DC916 community</li>
+          <li><i class="fas fa-laptop-code"></i> Apply what you've learned to your projects</li>
+          <li><i class="fas fa-video"></i> Watch recorded talks you missed</li>
+          <li><i class="fas fa-users"></i> Stay connected with people you met</li>
+          <li><i class="fas fa-calendar-plus"></i> Start planning for next year!</li>
+        </ul>
+      </div>
+      
+      <div class="share-experience">
+        <h3><i class="fas fa-bullhorn"></i> Share Your Experience</h3>
+        <p>We'd love to hear about your DEF CON experience! Join our monthly meetup to share what you learned and experienced.</p>
+        <a href="https://discord.gg/Dkn5DZTaGh" class="share-link">
+          <i class="fab fa-discord"></i> Join Our Discord
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="hacker-terminal">
+  <div class="terminal-window">
+    <div class="terminal-header">
+      <div class="terminal-controls">
+        <span class="control close"></span>
+        <span class="control minimize"></span>
+        <span class="control maximize"></span>
+      </div>
+      <div class="terminal-title">
+        <span class="prompt">./</span> defcon_tips.sh
+      </div>
+    </div>
+    <div class="terminal-content">
+      <p><span class="prompt">$</span> <span class="command">./random_tip</span></p>
+      <div id="tip-display" class="response">
+        <p class="tip-text">Loading DEF CON survival tip...</p>
+      </div>
+      <p><span class="prompt">$</span> <span class="command blink-cursor">_</span></p>
+    </div>
+  </div>
+  
+  <div class="terminal-controls">
+    <button id="new-tip" class="terminal-button">
+      <i class="fas fa-random"></i> New Tip
+    </button>
+  </div>
+</div>
+
+<style>
+/* DEF CON Header Styles */
+.defcon-header {
+  background: rgba(91, 43, 130, 0.3);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.defcon-logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--conifer);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.defcon-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.detail-item {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.detail-item i {
+  color: var(--conifer);
+  margin-right: 0.5rem;
+}
+
+/* Interactive Map Styles */
+.interactive-map {
+  border: 1px solid var(--kings-purple);
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+}
+
+.map-timeline {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1.5rem;
+  position: relative;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+}
+
+.map-timeline::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    var(--kings-purple) 10%, 
+    var(--conifer) 20%, 
+    var(--kings-purple) 30%,
+    var(--kings-purple) 70%,
+    var(--conifer) 80%,
+    var(--kings-purple) 90%,
+    transparent 100%);
+  transform: translateY(-50%);
+  z-index: 1;
+  box-shadow: 0 0 10px var(--kings-purple), 0 0 20px var(--conifer);
+  animation: pulse 4s infinite alternate;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.7; }
+  100% { opacity: 1; }
+}
+
+.map-timeline::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1) 2px,
+    transparent 2px,
+    transparent 4px
+  );
+  pointer-events: none;
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.timeline-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.timeline-icon {
+  width: 60px;
+  height: 60px;
+  background: var(--terminal-background);
+  border: 2px solid var(--kings-purple);
+  border-radius: 10px;
+  transform: rotate(45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(91, 43, 130, 0.5);
+  position: relative;
+  overflow: hidden;
+}
+
+.timeline-icon::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: linear-gradient(45deg, 
+    transparent 0%, 
+    rgba(91, 43, 130, 0.1) 45%, 
+    rgba(91, 43, 130, 0.3) 50%,
+    rgba(91, 43, 130, 0.1) 55%, 
+    transparent 100%);
+  animation: shine 3s infinite;
+}
+
+@keyframes shine {
+  0% { transform: translateX(-100%) translateY(-100%); }
+  100% { transform: translateX(100%) translateY(100%); }
+}
+
+.timeline-icon i {
+  color: var(--kings-silver);
+  font-size: 1.4rem;
+  transform: rotate(-45deg);
+  transition: all 0.3s ease;
+}
+
+.timeline-label {
+  font-size: 0.9rem;
+  color: var(--kings-silver);
+  transition: all 0.3s ease;
+  font-family: 'Courier New', monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  padding: 0.25rem 0.5rem;
+}
+
+.timeline-label::before {
+  content: '[';
+  margin-right: 0.25rem;
+  color: var(--conifer);
+}
+
+.timeline-label::after {
+  content: ']';
+  margin-left: 0.25rem;
+  color: var(--conifer);
+}
+
+.timeline-item.active .timeline-icon {
+  background: var(--kings-purple);
+  border-color: var(--conifer);
+  transform: rotate(45deg) scale(1.1);
+  box-shadow: 0 0 15px var(--kings-purple), 0 0 30px rgba(142, 229, 47, 0.5);
+}
+
+.timeline-item.active .timeline-icon i {
+  color: var(--conifer);
+  animation: glitch 1s infinite alternate;
+}
+
+@keyframes glitch {
+  0%, 100% { 
+    text-shadow: 0 0 2px var(--conifer), 0 0 5px var(--conifer);
+    transform: rotate(-45deg);
+  }
+  25% { 
+    text-shadow: -1px 0 2px #ff00ff, 1px 0 2px #00ffff;
+    transform: rotate(-45deg) translateX(-1px);
+  }
+  75% { 
+    text-shadow: 1px 0 2px #00ffff, -1px 0 2px #ff00ff;
+    transform: rotate(-45deg) translateX(1px);
+  }
+}
+
+.timeline-item.active .timeline-label {
+  color: var(--conifer);
+  font-weight: bold;
+  text-shadow: 0 0 5px rgba(142, 229, 47, 0.5);
+}
+
+.timeline-item:hover .timeline-icon {
+  transform: rotate(45deg) scale(1.1);
+  border-color: var(--conifer);
+  box-shadow: 0 0 15px rgba(91, 43, 130, 0.8);
+}
+
+.timeline-item:not(.active):hover .timeline-icon i {
+  color: var(--conifer);
+}
+
+.timeline-item:hover .timeline-label {
+  color: var(--conifer);
+}
+
+.map-content {
+  padding: 0 1.5rem 1.5rem;
+}
+
+.map-panel {
+  display: none;
+  animation: fadeIn 0.5s ease;
+}
+
+.map-panel.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.map-panel h2 {
+  color: var(--conifer);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--kings-purple);
+}
+
+.map-panel h2 i {
+  margin-right: 0.5rem;
+}
+
+.map-panel h3 {
+  color: var(--kings-silver);
+  margin: 1.5rem 0 1rem;
+}
+
+.map-panel h3 i {
+  color: var(--conifer);
+  margin-right: 0.5rem;
+}
+
+/* Registration Info Styles */
+.registration-info {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+.reg-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.reg-option:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.reg-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-right: 1rem;
+  min-width: 80px;
+  text-align: center;
+}
+
+.reg-badge.early {
+  background: #4CAF50;
+  color: #fff;
+}
+
+.reg-badge.regular {
+  background: #2196F3;
+  color: #fff;
+}
+
+.reg-badge.late {
+  background: #FF9800;
+  color: #fff;
+}
+
+.reg-badge.onsite {
+  background: #9C27B0;
+  color: #fff;
+}
+
+.reg-details {
+  flex: 1;
+}
+
+.reg-price {
+  font-weight: bold;
+  color: var(--kings-silver);
+}
+
+.reg-deadline {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.reg-note {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  background: rgba(255, 152, 0, 0.1);
+  border-left: 3px solid #FF9800;
+  border-radius: 0 4px 4px 0;
+}
+
+.reg-note i {
+  color: #FF9800;
+  margin-right: 0.5rem;
+}
+
+/* Training Info Styles */
+.training-info {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+.training-highlight {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background: rgba(76, 175, 80, 0.1);
+  border-left: 3px solid #4CAF50;
+  border-radius: 0 4px 4px 0;
+}
+
+.training-highlight i {
+  color: #4CAF50;
+  margin-right: 0.5rem;
+}
+
+.defcon-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--conifer);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.defcon-link:hover {
+  text-decoration: underline;
+}
+
+.defcon-link i {
+  margin-right: 0.5rem;
+}
+
+/* Venue Info Styles */
+.venue-info {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+.venue-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px dashed rgba(91, 43, 130, 0.3);
+}
+
+.venue-image {
+  flex: 1;
+  min-width: 250px;
+  max-width: 400px;
+}
+
+.venue-image img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--kings-purple);
+}
+
+.venue-text {
+  flex: 2;
+  min-width: 250px;
+}
+
+.venue-text h4 {
+  color: var(--conifer);
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.venue-text p {
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.venue-text p i {
+  color: var(--conifer);
+  margin-right: 0.5rem;
+}
+
+/* Hotel Blocks Styles */
+.hotel-blocks {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px dashed rgba(91, 43, 130, 0.3);
+}
+
+.hotel-blocks h4 {
+  color: var(--conifer);
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.hotel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1rem auto;
+  max-width: 800px;
+  justify-content: center;
+}
+
+.hotel-item {
+  background: rgba(91, 43, 130, 0.2);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.hotel-item:hover {
+  border-color: var(--conifer);
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hotel-item i {
+  font-size: 2rem;
+  color: var(--conifer);
+  margin-bottom: 0.5rem;
+}
+
+.hotel-item h5 {
+  color: var(--kings-silver);
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.hotel-link {
+  display: inline-block;
+  background: var(--kings-purple);
+  color: var(--terminal-text);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 0.5rem;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.hotel-link:hover {
+  background: var(--conifer);
+  color: var(--terminal-background);
+}
+
+.hotel-note {
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  opacity: 0.8;
+}
+
+.hotel-blocks .hotel-note {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background: rgba(91, 43, 130, 0.1);
+  border-left: 3px solid var(--kings-purple);
+  border-radius: 0 4px 4px 0;
+  font-size: 0.9rem;
+}
+
+.hotel-blocks .hotel-note i {
+  color: var(--conifer);
+  margin-right: 0.5rem;
+}
+
+/* Transportation Info Styles */
+.transportation-info {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px dashed rgba(91, 43, 130, 0.3);
+}
+
+.transportation-info h4 {
+  color: var(--conifer);
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.transport-item {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.transport-item:last-child {
+  margin-bottom: 0;
+}
+
+.transport-item h5 {
+  color: var(--kings-silver);
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+}
+
+.transport-item h5 i {
+  color: var(--conifer);
+  margin-right: 0.5rem;
+}
+
+.transport-item p {
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.transport-item p:last-child {
+  margin-bottom: 0;
+}
+
+.transport-image {
+  margin-top: 1rem;
+}
+
+.transport-image img {
+  max-width: 100%;
+  border-radius: 4px;
+  border: 1px solid var(--kings-purple);
+}
+
+/* Collapsible Subsection Styles */
+.collapsible-subsection {
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.subsection-header {
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(91, 43, 130, 0.2);
+}
+
+.subsection-header h4 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.toggle-btn-small {
+  background: rgba(91, 43, 130, 0.5);
+  color: var(--terminal-text);
+  border: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.toggle-btn-small:hover {
+  background: var(--conifer);
+  color: var(--terminal-background);
+}
+
+.subsection-content {
+  padding: 1rem;
+}
+
+/* Venue Amenities Styles */
+.venue-amenities {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px dashed rgba(91, 43, 130, 0.3);
+}
+
+.venue-amenities h4, .health-safety h4 {
+  color: var(--conifer);
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.venue-amenities ul, .health-safety ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.venue-amenities li, .health-safety li {
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  position: relative;
+  line-height: 1.5;
+}
+
+.venue-amenities li:last-child, .health-safety li:last-child {
+  margin-bottom: 0;
+}
+
+.venue-amenities li i, .health-safety li i {
+  position: absolute;
+  left: 0;
+  top: 0.25rem;
+  color: var(--conifer);
+}
+
+/* Health & Safety Styles */
+.health-safety {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+/* Checklist Styles */
+.prep-checklist {
+  margin: 1.5rem 0;
+}
+
+.checklist-item {
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.checklist-item input[type="checkbox"] {
+  margin-right: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+/* Travel Tips Styles */
+.travel-tips ul, .event-tips ul, .post-event-tips ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.travel-tips li, .event-tips li, .post-event-tips li {
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.travel-tips li i, .event-tips li i, .post-event-tips li i {
+  position: absolute;
+  left: 0;
+  top: 0.25rem;
+  color: var(--conifer);
+}
+
+.vegas-info {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+/* Villages Grid Styles */
+.villages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.village-item {
+  background: rgba(91, 43, 130, 0.2);
+  padding: 0.75rem;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.village-item:hover {
+  background: rgba(91, 43, 130, 0.4);
+  transform: translateY(-3px);
+}
+
+.village-item i {
+  font-size: 1.5rem;
+  color: var(--conifer);
+  margin-bottom: 0.5rem;
+}
+
+.village-more {
+  text-align: center;
+  margin-top: 1rem;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+/* Collapsible Section Styles */
+.collapsible-section {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  overflow: hidden;
+}
+
+.section-header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(91, 43, 130, 0.3);
+}
+
+.section-header h3 {
+  margin: 0;
+}
+
+.toggle-btn {
+  background: var(--kings-purple);
+  color: var(--terminal-text);
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background: var(--conifer);
+  color: var(--terminal-background);
+}
+
+.section-synopsis {
+  padding: 0 1rem 1rem;
+  border-bottom: 1px dashed rgba(91, 43, 130, 0.3);
+}
+
+.section-synopsis p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.section-content {
+  padding: 1rem;
+}
+
+/* Community Links Styles */
+.community-links {
+  margin: 1.5rem 0;
+}
+
+.link-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.community-link {
+  display: inline-flex;
+  align-items: center;
+  background: var(--kings-purple);
+  color: var(--terminal-text);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.community-link:hover {
+  background: var(--conifer);
+  color: var(--terminal-background);
+  transform: translateY(-2px);
+}
+
+.community-link i {
+  margin-right: 0.5rem;
+}
+
+/* Share Experience Styles */
+.share-experience {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.share-link {
+  display: inline-flex;
+  align-items: center;
+  background: var(--kings-purple);
+  color: var(--terminal-text);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+
+.share-link:hover {
+  background: var(--conifer);
+  color: var(--terminal-background);
+  transform: translateY(-2px);
+}
+
+.share-link i {
+  margin-right: 0.5rem;
+}
+
+/* Terminal Styles */
+.hacker-terminal {
+  margin: 2rem 0;
+}
+
+.terminal-window {
+  background: var(--terminal-background);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.terminal-header {
+  background: #2d2d2d;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.terminal-controls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.control {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.control.close {
+  background: #ff5f56;
+}
+
+.control.minimize {
+  background: #ffbd2e;
+}
+
+.control.maximize {
+  background: #27c93f;
+}
+
+.terminal-title {
+  color: #ddd;
+  font-size: 0.8rem;
+}
+
+.terminal-content {
+  padding: 1rem;
+  font-family: 'Fira Code', monospace;
+  color: var(--terminal-text);
+}
+
+.prompt {
+  color: var(--conifer);
+  margin-right: 0.5rem;
+}
+
+.command {
+  color: var(--kings-silver);
+}
+
+.response {
+  margin: 0.5rem 0 1rem 1.5rem;
+}
+
+.tip-text {
+  line-height: 1.5;
+}
+
+.blink-cursor {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+.terminal-controls {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.terminal-button {
+  background: var(--kings-purple);
+  color: var(--terminal-text);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Fira Code', monospace;
+  transition: all 0.3s ease;
+}
+
+.terminal-button:hover {
+  background: var(--conifer);
+  color: var(--terminal-background);
+  transform: translateY(-2px);
+}
+
+.terminal-button i {
+  margin-right: 0.5rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .defcon-details {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .map-timeline {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .map-timeline::before {
+    display: none;
+  }
+  
+  .villages-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+  
+  .link-buttons {
+    flex-direction: column;
+  }
+  
+  .community-link, .share-link {
+    width: 100%;
+    justify-content: center;
+  }
+}
+</style>
+
+<script>
+// Wait for the page to be fully loaded
+window.addEventListener('load', function() {
+  // Interactive map functionality
+  const timelineItems = document.querySelectorAll('.timeline-item');
+  const mapPanels = document.querySelectorAll('.map-panel');
+  
+  // Add click event listeners to timeline items
+  timelineItems.forEach(item => {
+    item.addEventListener('click', function() {
+      // Get the target panel ID
+      const targetId = this.getAttribute('data-target');
+      
+      // Remove active class from all timeline items and panels
+      timelineItems.forEach(i => i.classList.remove('active'));
+      mapPanels.forEach(p => p.classList.remove('active'));
+      
+      // Add active class to clicked item and corresponding panel
+      this.classList.add('active');
+      document.getElementById(targetId).classList.add('active');
+    });
+  });
+  
+  // DEF CON Tips functionality
+  const tipDisplay = document.getElementById('tip-display');
+  const newTipButton = document.getElementById('new-tip');
+  
+  // Array of DEF CON survival tips
+  const defconTips = [
+    "Always bring cash - DEF CON is a cash-only event and many vendors don't accept cards.",
+    "Stay hydrated! Vegas is hot and conference centers are dry. Carry a water bottle.",
+    "Wear comfortable shoes - you'll be walking a lot between talks and villages.",
+    "Assume all networks are hostile. Use a VPN or cellular data when possible.",
+    "Disable Bluetooth and WiFi when not in use to protect your devices.",
+    "Bring a portable battery pack - outlets are scarce and in high demand.",
+    "Take breaks and pace yourself - it's a marathon, not a sprint.",
+    "Don't be afraid to talk to people - networking is one of the best parts of DEF CON.",
+    "Bring business cards with only the information you're comfortable sharing.",
+    "Consider using a burner phone or laptop if you're concerned about security.",
+    "Plan your schedule but be flexible - popular talks fill up quickly.",
+    "Check out the villages for hands-on experiences and smaller group interactions.",
+    "Bring a small lock for your backpack to secure your belongings.",
+    "Take notes! You'll learn so much that it's impossible to remember everything.",
+    "Respect people's privacy and don't take photos without permission.",
+    "Shower daily. This shouldn't need to be said, but it's a common DEF CON tip for a reason.",
+    "The 3-2-1 rule: 3 hours of sleep, 2 meals, and 1 shower per day minimum.",
+    "Bring a light jacket - conference rooms can be freezing even when it's 100°F outside.",
+    "Don't touch any USB devices you find lying around. Just don't.",
+    "Attend evening events and parties - they're great for networking and fun.",
+    "Read the DEF CON FAQ before attending - it has valuable information.",
+    "Follow @defcon on Twitter/X for real-time updates during the event.",
+    "Bring your own toilet paper - seriously, it can run out in the bathrooms.",
+    "Consider volunteering as a Goon - it's a great way to get involved and meet people.",
+    "Pace your alcohol consumption - Vegas and dehydration can amplify its effects.",
+    "Check out smaller talks - they often have the most interesting content.",
+    "Don't be afraid to ask questions - the community is generally very helpful.",
+    "Bring a notepad and pen as backup for when your devices run out of battery.",
+    "Set a budget for the vendor area - it's easy to overspend on cool hacker gear.",
+    "Prepare for line-con - popular talks will have long lines, so arrive early."
+  ];
+  
+  // Function to get a random tip
+  function getRandomTip() {
+    const randomIndex = Math.floor(Math.random() * defconTips.length);
+    return defconTips[randomIndex];
+  }
+  
+  // Function to display a new tip
+  function displayNewTip() {
+    tipDisplay.innerHTML = `<p class="tip-text">${getRandomTip()}</p>`;
+  }
+  
+  // Initialize with first tip
+  displayNewTip();
+  
+  // Handle new tip button click
+  if (newTipButton) {
+    newTipButton.addEventListener('click', displayNewTip);
+  }
+  
+  // Collapsible sections functionality
+  const toggleButtons = document.querySelectorAll('.toggle-btn');
+  
+  toggleButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const section = this.closest('.collapsible-section');
+      const content = section.querySelector('.section-content');
+      const icon = this.querySelector('i');
+      
+      // Toggle content visibility
+      if (content.style.display === 'none' || !content.style.display) {
+        content.style.display = 'grid';
+        icon.className = 'fas fa-chevron-up';
+        section.querySelector('.village-more').style.display = 'block';
+      } else {
+        content.style.display = 'none';
+        icon.className = 'fas fa-chevron-down';
+        section.querySelector('.village-more').style.display = 'none';
+      }
+    });
+  });
+  
+  // Initialize all collapsible sections to be collapsed by default
+  document.querySelectorAll('.collapsible-section').forEach(section => {
+    const content = section.querySelector('.section-content');
+    const more = section.querySelector('.village-more');
+    if (content) content.style.display = 'none';
+    if (more) more.style.display = 'none';
+  });
+  
+  // Collapsible subsections functionality
+  const toggleSmallButtons = document.querySelectorAll('.toggle-btn-small');
+  
+  toggleSmallButtons.forEach(button => {
+    button.addEventListener('click', function(e) {
+      e.stopPropagation(); // Prevent event bubbling to parent sections
+      const subsection = this.closest('.collapsible-subsection');
+      const content = subsection.querySelector('.subsection-content');
+      const icon = this.querySelector('i');
+      
+      // Toggle content visibility
+      if (content.style.display === 'none' || !content.style.display) {
+        content.style.display = 'block';
+        icon.className = 'fas fa-chevron-up';
+      } else {
+        content.style.display = 'none';
+        icon.className = 'fas fa-chevron-down';
+      }
+    });
+  });
+  
+  // Initialize all collapsible subsections to be collapsed by default
+  document.querySelectorAll('.collapsible-subsection').forEach(subsection => {
+    const content = subsection.querySelector('.subsection-content');
+    if (content) content.style.display = 'none';
+  });
+});
+</script>

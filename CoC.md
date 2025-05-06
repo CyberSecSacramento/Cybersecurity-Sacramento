@@ -1,79 +1,320 @@
-# Cybersecurity Sacramento & DC916 Code of Conduct
+---
+layout: default
+title: Code of Conduct
 ---
 
-# Introduction
-This is the Cybersecurity Sacramento & DC916 Code of Conduct. It's a mixture of Code of Conduct's I (Kali - radicalkjax) have read from various other groups (DEF CON and not) that I felt best adhered to Cybersecurity Sacramento & DC916. If you have any questions at all you can reach out directly to [Leadership](https://dc916.com/Leadership) or submit them anonymously using the [provided form](https://docs.google.com/forms/d/e/1FAIpQLSfAvA1sVB5_xy5_RFFwnP3ZBAAoc98rgiKZLcIY23bnHmV8qQ/viewform?usp=sf_link).
+# <span class="prompt">./</span>DC916 Code of Conduct
 
----
+<div class="terminal-window">
+  <div class="terminal-header">
+    <div class="terminal-controls">
+      <span class="control close"></span>
+      <span class="control minimize"></span>
+      <span class="control maximize"></span>
+    </div>
+    <div class="terminal-title">
+      <span class="prompt">./</span> code_of_conduct.sh
+    </div>
+  </div>
+  <div class="terminal-content">
+    <p><span class="prompt">$</span> <span class="command">cat introduction.txt</span></p>
+    <div class="response">
+      This is the Cybersecurity Sacramento & DC916 Code of Conduct. It's a mixture of Code of Conduct's I (Kali - radicalkjax) have read from various other groups (DEF CON and not) that I felt best adhered to Cybersecurity Sacramento & DC916. If you have any questions at all you can reach out directly to <a href="https://dc916.com/Leadership">Leadership</a> or submit them anonymously using the <a href="https://docs.google.com/forms/d/e/1FAIpQLSfAvA1sVB5_xy5_RFFwnP3ZBAAoc98rgiKZLcIY23bnHmV8qQ/viewform?usp=sf_link">provided form</a>.
+    </div>
+    
+    <p><span class="prompt">$</span> <span class="command">./execute code_of_conduct.sh</span></p>
+    <div class="response">
+      <div class="highlight">
+        <p><i class="fas fa-terminal"></i> <strong>BEGIN CODE OF CONDUCT</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
 
-# <-- BEGIN CODE OF CONDUCT -->
+<div class="coc-container">
+  <div class="coc-rule">
+    <div class="rule-number"><i class="fas fa-shield-alt"></i> 01</div>
+    <div class="rule-content">
+      <h3>Be respectful</h3>
+      <p>Treat others how you'd like to be treated. Hate speech, bullying, sexism, discrimination or harassment of any kind will not be tolerated.</p>
+      <div class="rule-details">
+        <p><i class="fas fa-exclamation-triangle"></i> Harassment includes — but is not limited to — unwelcome conduct or offensive verbal comments related to gender, gender identity, gender expression, sexual orientation, age, disability, physical appearance, body size, race, national origin, or religion; deliberate intimidation, stalking, following, unwelcome or unauthorized photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</p>
+        <p><i class="fas fa-flag"></i> If you need to report something to <a href="https://dc916.com/Leadership">Leadership</a>, please submit it <a href="https://docs.google.com/forms/d/e/1FAIpQLSfAvA1sVB5_xy5_RFFwnP3ZBAAoc98rgiKZLcIY23bnHmV8qQ/viewform?usp=sf_link">here</a>.</p>
+      </div>
+    </div>
+  </div>
 
-# 1) Be respectful: 
+  <div class="coc-rule">
+    <div class="rule-number"><i class="fas fa-ban"></i> 02</div>
+    <div class="rule-content">
+      <h3>No illegal activity</h3>
+      <p>Don't discuss or promote any illegal activities or substances.</p>
+      <div class="rule-details">
+        <ul>
+          <li>Do NOT violate any local, state, national, international law or regulation while attending group meetings, events or while acting on behalf of Cybersecurity Sacramento & DC916.</li>
+          <li>Do NOT request others in the group to violate the above.</li>
+          <li>Do NOT ask someone to, "hack this for me," "teach me to hack," or for, "hacking software."</li>
+        </ul>
+        <p><i class="fas fa-info-circle"></i> If you don't know if something violates the above, then it's best you don't do it.</p>
+        <p><i class="fas fa-users"></i> Remember, this is a semi-public group. Anyone, ANYONE, may be apart of it.</p>
+      </div>
+    </div>
+  </div>
 
-Treat others how you’d like to be treated. Hate speech, bullying, sexism, discrimination or harassment of any kind will not be tolerated.
+  <div class="coc-rule">
+    <div class="rule-number"><i class="fas fa-balance-scale"></i> 03</div>
+    <div class="rule-content">
+      <h3>No official ideology</h3>
+      <p>There shall be no official ideology of Cybersecurity Sacramento & DC916.</p>
+      <div class="rule-details">
+        <p>However, people espousing ideas or belonging to groups that deny social, economic and/or political agency to persons or groups based on their race, ethnicity, religion, national origin, gender identity/expression, disability status, sexual orientation, or perception thereof; therefor will not be allowed to attend or participate is Cybersecurity Sacramento & DC916 events and meet ups. Persons openly espousing ideas that remove others Freedoms shall not be welcome. This includes any groups that openly states in denying agency to said persons regardless of their actual capacity to do so.</p>
+      </div>
+    </div>
+  </div>
 
-* Harassment includes — but is not limited to — unwelcome conduct or offensive verbal comments related to gender, gender identity, gender expression, sexual orientation, age, disability, physical appearance, body size, race, national origin, or religion; deliberate intimidation, stalking, following, unwelcome or unauthorized photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
+  <div class="coc-rule">
+    <div class="rule-number"><i class="fas fa-user-secret"></i> 04</div>
+    <div class="rule-content">
+      <h3>No unauthorized sharing</h3>
+      <p>Don't share personal information or images of others without their consent.</p>
+    </div>
+  </div>
 
-* If you need to report something to [Leadership](https://dc916.com/Leadership), please submit it [here](https://docs.google.com/forms/d/e/1FAIpQLSfAvA1sVB5_xy5_RFFwnP3ZBAAoc98rgiKZLcIY23bnHmV8qQ/viewform?usp=sf_link).
+  <div class="coc-rule">
+    <div class="rule-number"><i class="fas fa-comment-slash"></i> 05</div>
+    <div class="rule-content">
+      <h3>No trolling</h3>
+      <p>Don't intentionally provoke or harass other members.</p>
+    </div>
+  </div>
 
-# 2) No illegal activity: 
+  <div class="coc-rule">
+    <div class="rule-number"><i class="fas fa-user-check"></i> 06</div>
+    <div class="rule-content">
+      <h3>Be Responsible for Your Actions</h3>
+      <p>Take responsibility for your own actions and their consequences in the event of a report or witnessing of an event when a participant/attendee/Cybersecurity Sacramento & DC916 Member is being harassed.</p>
+    </div>
+  </div>
 
-Don’t discuss or promote any illegal activities or substances.
+  <div class="coc-rule">
+    <div class="rule-number"><i class="fas fa-laptop-code"></i> 07</div>
+    <div class="rule-content">
+      <h3>The 'teach me to hack' questions</h3>
+      <p>Covered in "No illegal activity" the "teach me to hack" or "will you hack this for me?" questions will NOT be tolerated.</p>
+    </div>
+  </div>
 
-* Do NOT violate any local, state, national, international law or regulation while attending group meetings, events or while acting on behalf of Cybersecurity Sacramento & DC916.
-* Do NOT request others in the group to violate the above.
-* Do NOT ask someone to, "hack this for me," "teach me to hack," or for, "hacking software."
+  <div class="coc-rule">
+    <div class="rule-number"><i class="fas fa-graduation-cap"></i> 08</div>
+    <div class="rule-content">
+      <h3>This is a place to learn and connect</h3>
+      <p>If you have questions regarding security or a direct technical question we are here to help and discuss. If you are unsure if your question will violate the "teach me to hack" rule, reach out to <a href="https://dc916.com/Leadership">Leadership</a>. Sometimes a question just needs to be phrased appropriately. The previous rule is to make it clear we're not here to teach people how to break the law.</p>
+    </div>
+  </div>
 
-If you don't know if something violates the above, then it's best you don't do it.
+  <div class="coc-rule">
+    <div class="rule-number"><i class="fas fa-copy"></i> 09</div>
+    <div class="rule-content">
+      <h3>No stealing</h3>
+      <p>Do not steal others work. If someone posts/presents their efforts please respect it by giving credit where it's due. If you want to share a member's work outside the group be sure to have their consent.</p>
+    </div>
+  </div>
 
-Remember, this is a semi-public group. Anyone, ANYONE, may be apart of it.
+  <div class="coc-rule">
+    <div class="rule-number"><i class="fas fa-users-cog"></i> 10</div>
+    <div class="rule-content">
+      <h3>Work with Leadership</h3>
+      <p>Building a great community requires cooperation, so please work with our <a href="https://dc916.com/Leadership">Leadership</a> to help make our group a friendly and welcoming place.</p>
+    </div>
+  </div>
 
-# 3) There shall be no official ideology of Cybersecurity Sacramento & DC916:
+  <div class="coc-rule">
+    <div class="rule-number"><i class="fas fa-link"></i> 11</div>
+    <div class="rule-content">
+      <h3>Follow DEF CON's Code of Conduct</h3>
+      <p>For where these rules may fall short, please follow <a href="https://defcon.org/html/links/dc-code-of-conduct.html" target="_blank">DEF CON's official Code of Conduct</a>.</p>
+    </div>
+  </div>
 
-However, people espousing ideas or belonging to groups that deny social, economic and/or political agency to persons or groups based on their race, ethnicity, religion, national origin, gender identity/expression, disability status, sexual orientation, or perception thereof; therefor will not be allowed to attend or participate is Cybersecurity Sacramento & DC916 events and meet ups. Persons openly espousing ideas that remove others Freedoms shall not be welcome. This includes any groups that openly states in denying agency to said persons regardless of their actual capacity to do so.
+  <div class="coc-rule">
+    <div class="rule-number"><i class="fas fa-globe"></i> 12</div>
+    <div class="rule-content">
+      <h3>Hack the planet!</h3>
+      <p class="easter-egg" title="Hackers (1995)">HACK THE PLANET! HACK THE PLANET!</p>
+    </div>
+  </div>
 
-# 4) No unauthorized sharing: 
+  <div class="coc-rule">
+    <div class="rule-number"><i class="fas fa-robot"></i> 13</div>
+    <div class="rule-content">
+      <h3>No global thermonuclear war</h3>
+      <p>Nothing that results in global thermonuclear war or Skynet is permitted.</p>
+      <div class="rule-details">
+        <div class="wargames-terminal">
+          <div class="wargames-header">
+            <div class="terminal-controls">
+              <span class="control close"></span>
+              <span class="control minimize"></span>
+              <span class="control maximize"></span>
+            </div>
+            <div class="terminal-title">
+              <span class="prompt">WOPR</span> system
+            </div>
+          </div>
+          <div class="wargames-content">
+            <div class="wargames-text">
+              <p>HOW ABOUT A NICE GAME OF</p>
+              <p>GLOBAL THERMONUCLEAR</p>
+              <p>WAR?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-Don’t share personal information or images of others without their consent.
+<div class="terminal-window">
+  <div class="terminal-header">
+    <div class="terminal-controls">
+      <span class="control close"></span>
+      <span class="control minimize"></span>
+      <span class="control maximize"></span>
+    </div>
+    <div class="terminal-title">
+      <span class="prompt">./</span> code_of_conduct.sh
+    </div>
+  </div>
+  <div class="terminal-content">
+    <div class="response">
+      <div class="highlight">
+        <p><i class="fas fa-terminal"></i> <strong>END CODE OF CONDUCT</strong></p>
+      </div>
+    </div>
+    
+    <p><span class="prompt">$</span> <span class="command">cat closing.txt</span></p>
+    <div class="response">
+      <p>This is intended to be a living document. As Cybersecurity Sacramento & DC916 grows new group structure will emerge and rules will need to be amended. If you have any suggestions please reach out to <a href="https://dc916.com/Leadership">Leadership</a> or submit them with the aforementioned form <a href="https://docs.google.com/forms/d/e/1FAIpQLSfAvA1sVB5_xy5_RFFwnP3ZBAAoc98rgiKZLcIY23bnHmV8qQ/viewform?usp=sf_link">here</a>.</p>
+      <p class="signature">-- Kali Jackson (radicalkjax)</p>
+    </div>
+    
+    <p><span class="prompt">$</span> <span class="command blink">_</span></p>
+  </div>
+</div>
 
-# 5) No trolling: 
+<div class="highlight">
+  <p>Have questions about our Code of Conduct? Join our Discord to discuss with the community!</p>
+  <a href="https://discord.gg/Dkn5DZTaGh" class="discord-link">
+    <i class="fab fa-discord"></i> Join Our Discord
+  </a>
+</div>
 
-Don’t intentionally provoke or harass other members.
+<style>
+.coc-container {
+  margin: 2rem 0;
+}
 
-# 6) Be Responsible for Your Actions: 
+.coc-rule {
+  display: flex;
+  margin-bottom: 1.5rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--terminal-border);
+  transition: all 0.3s ease;
+}
 
-Take responsibility for your own actions and their consequences in the event of a report or witnessing of an event when a participant/attendee/Cybersecurity Sacramento & DC916 Member is being harassed.
+.coc-rule:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  border-color: var(--conifer);
+}
 
-# 7) The ‘teach me to hack’ or ‘could you hack this for me’ questions:
+.rule-number {
+  background: var(--kings-purple);
+  color: var(--terminal-text);
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px;
+  border-right: 2px solid var(--conifer);
+}
 
-Covered in “No illegal activity” the "teach me to hack" or "will you hack this for me?" questions will NOT be tolerated.
+.rule-number i {
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
 
-# 8) This is a place to learn and connect with community: 
+.rule-content {
+  padding: 1rem 1.5rem;
+  flex-grow: 1;
+}
 
-If you have questions regarding security or a direct technical question we are here to help and discuss. If you are unsure if your question will violate the "teach me to hack" rule, reach out to [Leadership](https://dc916.com/Leadership). Sometimes a question just needs to be phrased appropriately. The previous rule is to make it clear we're not here to teach people how to break the law.
+.rule-content h3 {
+  margin-top: 0;
+  color: var(--conifer);
+}
 
-# 9) No stealing: 
+.rule-details {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px dashed var(--terminal-border);
+}
 
-Do not steal others work. If someone posts/presents their efforts please respect it by giving credit where it's due. If you want to share a member's work outside the group be sure to have their consent.
+.rule-details ul {
+  margin-left: 1rem;
+}
 
-# 10) Work with Leadership: 
+.coc-image {
+  max-width: 100%;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
 
-Building a great community requires cooperation, so please work with our [Leadership](https://dc916.com/Leadership) to help make our group a friendly and welcoming place.
+.signature {
+  font-style: italic;
+  margin-top: 1rem;
+  color: var(--kings-silver);
+}
 
-# 11) Follow DEF CON’s Code of Conduct: 
+.easter-egg {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 
-For where these rules may fall short, please follow [DEF CON's official Code of Conduct](https://defcon.org/html/links/dc-code-of-conduct.html).
+.easter-egg:hover {
+  color: var(--conifer);
+  transform: scale(1.05);
+}
 
-# 12) Hack the planet! 
+.blink {
+  animation: blink 1s step-end infinite;
+}
 
-# 13) Nothing that results in global thermonuclear war or Skynet is permitted.
+@keyframes blink {
+  50% { opacity: 0; }
+}
 
-![image](https://github.com/user-attachments/assets/1af9ae04-1c57-4083-9431-ed3a3a72b264)
- 
-
-# <-- END CODE OF CONDUCT -->
-----
-# Closing
-This is intended to be a living document. As Cybersecurity Sacramento & DC916 grows new group structure will emerge and rules will need to be ammended. If you have any suggestions please reach out to [Leadership](https://dc916.com/Leadership) or submit them with the aforementioned form [here](https://docs.google.com/forms/d/e/1FAIpQLSfAvA1sVB5_xy5_RFFwnP3ZBAAoc98rgiKZLcIY23bnHmV8qQ/viewform?usp=sf_link).
-
--- Kali Jackson (radicalkjax)
+@media (max-width: 768px) {
+  .coc-rule {
+    flex-direction: column;
+  }
+  
+  .rule-number {
+    padding: 0.75rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-right: none;
+    border-bottom: 2px solid var(--conifer);
+  }
+  
+  .rule-number i {
+    margin-bottom: 0;
+    margin-right: 0.5rem;
+  }
+}
+</style>

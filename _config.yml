@@ -1,3 +1,26 @@
-remote_theme: pages-themes/hacker@v0.2.0
+# Site settings
 title: Cybersecurity Sacramento (DC916)
 description: Belonging is the very best thing there is
+url: https://dc916.com
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+# Theme customization
+show_downloads: false
+
+# Collections
+collections:
+  resources:
+    output: true
+    permalink: /resources/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

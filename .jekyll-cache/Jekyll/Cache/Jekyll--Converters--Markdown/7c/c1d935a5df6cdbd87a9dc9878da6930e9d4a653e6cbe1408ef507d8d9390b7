@@ -1,0 +1,300 @@
+I"™ <h1 id="giveaways"><span class="prompt">./</span>Giveaways</h1>
+
+<div class="terminal-window">
+  <div class="terminal-header">
+    <div class="terminal-controls">
+      <span class="control close"></span>
+      <span class="control minimize"></span>
+      <span class="control maximize"></span>
+    </div>
+    <div class="terminal-title">
+      <span class="prompt">./</span> giveaway_rules.sh
+    </div>
+  </div>
+  <div class="terminal-content">
+    <p><span class="prompt">$</span> <span class="command">cat overall_rules.txt</span></p>
+    <div class="response">
+      <h2><i class="fas fa-trophy"></i> Overall Giveaway Rules</h2>
+      <ul class="rule-list">
+        <li><i class="fas fa-check-circle"></i> A Cybersecurity Sacramento &amp; DC916 member may only win one item every other month to allow others a chance to win.</li>
+        <li><i class="fas fa-check-circle"></i> Only Cybersecurity Sacramento &amp; DC916 members may enter. To enter please join our <a href="https://discord.gg/Dkn5DZTaGh">Discord</a> and join the meeting during the drawing.</li>
+        <li><i class="fas fa-check-circle"></i> Cybersecurity Sacramento &amp; DC916 member must be present for drawing to win.</li>
+      </ul>
+    </div>
+    
+    <p><span class="prompt">$</span> <span class="command">cat virtual_items.txt</span></p>
+    <div class="response">
+      <h2><i class="fas fa-cloud"></i> Virtual Item Giveaway Rules</h2>
+      <div class="rule-card virtual">
+        <div class="rule-icon">
+          <i class="fas fa-laptop-code"></i>
+        </div>
+        <div class="rule-content">
+          <p>Anyone who is a member of Cybersecurity Sacramento &amp; DC916 may enter.</p>
+          <div class="examples">
+            <span class="example-tag">Examples:</span>
+            <span class="example-item">Software Licenses</span>
+            <span class="example-item">Online Courses</span>
+            <span class="example-item">Digital Books</span>
+            <span class="example-item">Cloud Credits</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <p><span class="prompt">$</span> <span class="command">cat physical_items.txt</span></p>
+    <div class="response">
+      <h2><i class="fas fa-box"></i> Physical Item Giveaway Rules</h2>
+      <div class="rule-card physical">
+        <div class="rule-icon">
+          <i class="fas fa-microchip"></i>
+        </div>
+        <div class="rule-content">
+          <p>Physical items must be picked up at the physical meeting when the member's name is drawn or the meeting following after. Therefore, only members within the Sacramento area may enter for the Physical Item Giveaways.</p>
+          <p>If a member is unable to make it to the meetings for any kind of special circumstance but is still in the area, they may enter. <a href="https://dc916.com/Leadership">Leadership</a> will work with the winner on getting the winner their item.</p>
+          <div class="examples">
+            <span class="example-tag">Examples:</span>
+            <span class="example-item">Hardware</span>
+            <span class="example-item">Books</span>
+            <span class="example-item">Swag</span>
+            <span class="example-item">Tools</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="giveaway-faq">
+  <h2><i class="fas fa-question-circle"></i> Giveaway FAQ</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">
+      <i class="fas fa-caret-right"></i> How are winners selected?
+    </div>
+    <div class="faq-answer">
+      Winners are randomly selected during our monthly meetings using a fair and transparent process. All eligible members present at the meeting have an equal chance of winning.
+    </div>
+  </div>
+  
+  <div class="faq-item">
+    <div class="faq-question">
+      <i class="fas fa-caret-right"></i> What happens if I win but can't attend the next meeting?
+    </div>
+    <div class="faq-answer">
+      For physical items, you must arrange pickup with Leadership within a reasonable timeframe. If you're unable to pick up your prize after two consecutive meetings, it may be returned to the prize pool for future giveaways.
+    </div>
+  </div>
+  
+  <div class="faq-item">
+    <div class="faq-question">
+      <i class="fas fa-caret-right"></i> How do I know what items will be given away?
+    </div>
+    <div class="faq-answer">
+      Giveaway items are typically announced in our Discord server and during meetings. Join our <a href="https://discord.gg/Dkn5DZTaGh">Discord</a> to stay updated on upcoming giveaways.
+    </div>
+  </div>
+</div>
+
+<div class="next-giveaway">
+  <h2><i class="fas fa-calendar-day"></i> Next Giveaway</h2>
+  <p>We will announce when our next giveaway is in our Discord and social media first!</p>
+  <p>Join our <a href="https://discord.gg/Dkn5DZTaGh" class="discord-link"><i class="fab fa-discord"></i> Discord</a> for details on what items will be available!</p>
+</div>
+
+<style>
+.rule-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.rule-list li {
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.rule-list li i {
+  color: var(--conifer);
+  position: absolute;
+  left: 0;
+  top: 0.25rem;
+}
+
+.rule-card {
+  display: flex;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  transition: all 0.3s ease;
+}
+
+.rule-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.rule-card.virtual {
+  border-left: 4px solid #3498db;
+}
+
+.rule-card.physical {
+  border-left: 4px solid var(--kings-purple);
+}
+
+.rule-icon {
+  font-size: 2rem;
+  margin-right: 1.5rem;
+  color: var(--conifer);
+}
+
+.rule-content {
+  flex: 1;
+}
+
+.examples {
+  margin-top: 1rem;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0.75rem;
+  border-radius: 4px;
+}
+
+.example-tag {
+  display: block;
+  font-weight: bold;
+  color: var(--kings-silver);
+  margin-bottom: 0.5rem;
+}
+
+.example-item {
+  display: inline-block;
+  background: rgba(91, 43, 130, 0.3);
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.giveaway-faq {
+  margin: 3rem 0;
+}
+
+.giveaway-faq h2 {
+  color: var(--conifer);
+  margin-bottom: 1.5rem;
+}
+
+.giveaway-faq h2 i {
+  margin-right: 0.5rem;
+}
+
+.faq-item {
+  margin-bottom: 1.5rem;
+  border-left: 2px solid var(--kings-purple);
+  padding-left: 1rem;
+}
+
+.faq-question {
+  font-weight: bold;
+  color: var(--kings-silver);
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.faq-question i {
+  color: var(--conifer);
+  margin-right: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.faq-question:hover i {
+  transform: rotate(90deg);
+}
+
+.faq-answer {
+  padding-left: 1.5rem;
+  border-left: 1px dashed var(--terminal-border);
+}
+
+.next-giveaway {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--kings-purple);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.next-giveaway h2 {
+  color: var(--conifer);
+  margin-bottom: 1rem;
+}
+
+.next-giveaway h2 i {
+  margin-right: 0.5rem;
+}
+
+.next-giveaway strong {
+  color: var(--kings-silver);
+}
+
+.discord-link {
+  display: inline-block;
+  background: var(--kings-purple);
+  color: var(--terminal-text);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.discord-link:hover {
+  background: var(--conifer);
+  color: var(--terminal-background);
+  transform: translateY(-2px);
+}
+
+.discord-link i {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .rule-card {
+    flex-direction: column;
+  }
+  
+  .rule-icon {
+    margin-right: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Add click event to FAQ questions
+  const faqQuestions = document.querySelectorAll('.faq-question');
+  
+  faqQuestions.forEach(question => {
+    question.addEventListener('click', () => {
+      const answer = question.nextElementSibling;
+      const icon = question.querySelector('i');
+      
+      // Toggle answer visibility
+      if (answer.style.display === 'none') {
+        answer.style.display = 'block';
+        icon.style.transform = 'rotate(90deg)';
+      } else {
+        answer.style.display = 'none';
+        icon.style.transform = 'rotate(0)';
+      }
+    });
+  });
+});
+</script>
+
+:ET

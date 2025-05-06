@@ -1,0 +1,324 @@
+I"ò)<h1 id="cybersecurity-sacramento--dc916-projects">Cybersecurity Sacramento | DC916 Projects</h1>
+
+<div class="project-container">
+  <div class="project-card" id="road-to-def-con-33">
+    <div class="project-header">
+      <h2><i class="fas fa-road"></i> The Road to DEF CON 33</h2>
+    </div>
+    <div class="project-content">
+      <p>Currently, <a href="https://dc916.com/Leadership">Leadership</a> and some core group members are putting together a fun event to bring with us to DEF CON 33.</p>
+      <p class="project-status">Status: <span class="badge">In Progress</span></p>
+      
+      <div class="defcon-preview">
+        <div class="defcon-info">
+          <div class="defcon-logo">
+            <i class="fas fa-skull-crossbones"></i> DEF CON 33
+          </div>
+          <div class="defcon-dates">
+            <i class="fas fa-calendar-alt"></i> August 7-10, 2025
+          </div>
+          <div class="defcon-location">
+            <i class="fas fa-map-marker-alt"></i> Las Vegas Convention Center
+          </div>
+        </div>
+        <div class="defcon-actions">
+          <a href="/road-to-defcon" class="defcon-button">
+            <i class="fas fa-map"></i> View Interactive Guide
+          </a>
+          <a href="https://defcon.org/html/defcon-33/dc-33-index.html" class="defcon-button" target="_blank">
+            <i class="fas fa-external-link-alt"></i> Official DEF CON Site
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card" id="bsides-sacramento-revival">
+    <div class="project-header">
+      <h2><i class="fas fa-redo"></i> BSides Sacramento Revival</h2>
+    </div>
+    <div class="project-content">
+      <p>Members within DC916 are working with past BSidesSac leadership to reboot the con.</p>
+      <p class="project-status">Status: <span class="badge">Planning</span></p>
+      <p>Best of luck! <i class="fas fa-heart"></i></p>
+    </div>
+  </div>
+</div>
+
+<div class="hacker-terminal">
+  <div class="terminal-window">
+    <div class="terminal-header">
+      <div class="terminal-controls">
+        <span class="control close"></span>
+        <span class="control minimize"></span>
+        <span class="control maximize"></span>
+      </div>
+      <div class="terminal-title">
+        <span class="prompt">./</span> hacker_quotes.sh
+      </div>
+    </div>
+    <div class="terminal-content">
+      <p><span class="prompt">$</span> <span class="command">./random_reference</span></p>
+      <div id="quote-display" class="response">
+        <p class="quote-text">"Never send a human to do a machine's job." - Agent Smith, The Matrix</p>
+        <p class="countdown-timer">Next quote in: <span id="countdown">10</span>s</p>
+      </div>
+      <p><span class="prompt">$</span> <span class="command blink-cursor">_</span></p>
+    </div>
+  </div>
+  
+  <div class="terminal-controls">
+    <button id="new-quote" class="terminal-button">
+      <i class="fas fa-random"></i> New Reference
+    </button>
+  </div>
+</div>
+
+<style>
+.hacker-terminal {
+  margin: 2rem 0;
+}
+
+.terminal-controls {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.terminal-button {
+  background: var(--kings-purple);
+  color: var(--terminal-text);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Fira Code', monospace;
+  transition: all 0.3s ease;
+}
+
+.terminal-button:hover {
+  background: var(--conifer);
+  color: var(--terminal-background);
+  transform: translateY(-2px);
+}
+
+.terminal-button i {
+  margin-right: 0.5rem;
+}
+
+.quote-text {
+  font-style: italic;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+.blink-cursor {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+.countdown-timer {
+  font-size: 0.8rem;
+  color: var(--kings-silver);
+  opacity: 0.7;
+  text-align: right;
+  margin-top: 0.5rem;
+}
+
+#countdown {
+  font-weight: bold;
+  color: var(--conifer);
+}
+
+/* DEF CON Preview Styles */
+.defcon-preview {
+  margin: 2rem 0;
+  border: 1px solid var(--kings-purple);
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.defcon-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.defcon-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--conifer);
+  text-align: center;
+}
+
+.defcon-dates, .defcon-location {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.defcon-dates i, .defcon-location i {
+  color: var(--conifer);
+}
+
+.defcon-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.defcon-button {
+  display: inline-flex;
+  align-items: center;
+  background: var(--kings-purple);
+  color: var(--terminal-text);
+  padding: 0.75rem 1.25rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.defcon-button:hover {
+  background: var(--conifer);
+  color: var(--terminal-background);
+  transform: translateY(-2px);
+}
+
+.defcon-button i {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .defcon-actions {
+    flex-direction: column;
+  }
+  
+  .defcon-button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+</style>
+
+<script>
+// Wait for the page to be fully loaded
+window.addEventListener('load', function() {
+  // Quote rotation functionality
+  const quotes = [
+    '"Never send a human to do a machine\'s job." - Agent Smith, The Matrix',
+    '"Hack the planet!" - Dade Murphy, Hackers',
+    '"The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion." - Albert Camus',
+    '"It\'s not a bug, it\'s a feature." - Programming Proverb',
+    '"There is no spoon." - The Matrix',
+    '"I know kung fu." - Neo, The Matrix',
+    '"A computer lets you make more mistakes faster than any other invention, with the possible exceptions of handguns and tequila." - Mitch Ratcliffe',
+    '"If you think technology can solve your security problems, then you don\'t understand the problems and you don\'t understand the technology." - Bruce Schneier',
+    '"The quieter you become, the more you can hear." - Ram Dass (Kali Linux slogan)',
+    '"They\'re trashing our rights, man! They\'re trashing the flow of data! They\'re trashing! Trashing! TRASHING!" - Cereal Killer, Hackers',
+    '"Trust, but verify." - Russian Proverb (via Ronald Reagan)',
+    '"It\'s not about the destination, it\'s about the journey." - Ralph Waldo Emerson',
+    '"I\'m not superstitious, but I am a little stitious." - Michael Scott, The Office',
+    '"Hello, friend." - Elliot Alderson, Mr. Robot',
+    '"Why join the navy when you can be a pirate?" - Steve Jobs',
+    '"Mess with the best, die like the rest." - Zero Cool, Hackers',
+    '"The Gibson is hacked. Hacked the Gibson." - Hackers',
+    '"I\'m gonna need more coffee." - Every programmer ever',
+    '"There are 10 types of people in the world: those who understand binary, and those who don\'t."',
+    '"It\'s a UNIX system! I know this!" - Jurassic Park',
+    '"I\'m in." - Every hacker in every movie ever',
+    '"The password is... password." - Hacking clich√©',
+    '"I\'m not a hacker, I\'m an engineer with a different approach." - Anonymous',
+    '"Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday\'s code." - Dan Salomon',
+    '"Crypto means cryptography, not cryptocurrency." - Every cryptographer',
+    '"My password is the last 8 digits of pi." - Anonymous',
+    '"If debugging is the process of removing bugs, then programming must be the process of putting them in." - Edsger W. Dijkstra',
+    '"The best thing about a boolean is even if you are wrong, you are only off by a bit." - Anonymous',
+    '"Computers are good at following instructions, but not at reading your mind." - Donald Knuth',
+    '"The S in IoT stands for Security." - Infosec joke',
+    '"There are only two hard things in Computer Science: cache invalidation and naming things." - Phil Karlton',
+    '"The difference between theory and practice is smaller in theory than in practice." - Anonymous',
+    '"The problem with troubleshooting is that trouble shoots back." - Anonymous',
+    '"I\'m shocked, shocked to find that gambling is going on in here!" - Captain Renault, Casablanca',
+    '"I find your lack of security... disturbing." - Darth Vader (modified)',
+    '"Do you want to know why I use a knife? Guns are too quick. You can\'t savor all the little... emotions." - The Joker, The Dark Knight',
+    '"I\'m not bad, I\'m just programmed that way." - Jessica Rabbit (modified)',
+    '"Life moves pretty fast. If you don\'t stop and look around once in a while, you could miss it." - Ferris Bueller',
+    '"Follow the white rabbit." - The Matrix',
+    '"You\'re gonna need a bigger server." - Jaws (modified)'
+  ];
+  
+  // Get DOM elements
+  const quoteDisplay = document.getElementById('quote-display');
+  const newQuoteButton = document.getElementById('new-quote');
+  let countdownElement = document.getElementById('countdown');
+  
+  // Initialize variables
+  let countdownValue = 10;
+  let countdownInterval = null;
+  
+  // Get a random quote from the array
+  function getRandomQuote() {
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    return quotes[randomIndex];
+  }
+  
+  // Update the countdown display
+  function updateCountdown() {
+    if (countdownElement) {
+      countdownValue--;
+      countdownElement.textContent = countdownValue;
+      
+      if (countdownValue <= 0) {
+        displayNewQuote();
+      }
+    }
+  }
+  
+  // Display a new quote and reset countdown
+  function displayNewQuote() {
+    // Reset countdown
+    countdownValue = 10;
+    
+    // Display new quote with countdown
+    const newQuote = getRandomQuote();
+    quoteDisplay.innerHTML = `
+      <p class="quote-text">${newQuote}</p>
+      <p class="countdown-timer">Next quote in: <span id="countdown">${countdownValue}</span>s</p>
+    `;
+    
+    // Update reference to countdown element after DOM change
+    countdownElement = document.getElementById('countdown');
+  }
+  
+  // Initialize the first quote
+  displayNewQuote();
+  
+  // Set up the countdown interval (every second)
+  countdownInterval = setInterval(updateCountdown, 1000);
+  
+  // Handle manual quote change button click
+  if (newQuoteButton) {
+    newQuoteButton.addEventListener('click', function() {
+      // Reset countdown and display new quote
+      displayNewQuote();
+      countdownValue = 10;
+      if (countdownElement) {
+        countdownElement.textContent = countdownValue;
+      }
+    });
+  }
+});
+</script>
+
+:ET

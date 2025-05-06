@@ -1,0 +1,52 @@
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=VT323&display=swap" rel="stylesheet">
+
+<!-- Meta tags -->
+<meta name="description" content="Cybersecurity Sacramento (DC916) - A DEF CON group for hackers, makers, tinkerers and security enthusiasts in the Sacramento area.">
+<meta name="keywords" content="cybersecurity, sacramento, defcon, dc916, hacking, security, infosec">
+<meta name="author" content="Cybersecurity Sacramento">
+
+<!-- Open Graph / Social Media -->
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="A DEF CON group for hackers, makers, tinkerers and security enthusiasts in the Sacramento area.">
+<meta property="og:image" content="{{ '/assets/images/hackthebeamsmaller.jpeg' | absolute_url }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:type" content="website">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="A DEF CON group for hackers, makers, tinkerers and security enthusiasts in the Sacramento area.">
+<meta name="twitter:image" content="{{ '/assets/images/hackthebeamsmaller.jpeg' | absolute_url }}">
+
+<!-- Custom JavaScript -->
+<script src="{{ '/assets/js/console-effect.js' | relative_url }}"></script>
+
+<!-- Custom styles -->
+<style>
+  /* Override font family with Fira Code for better terminal look */
+  body {
+    font-family: 'Fira Code', 'Monaco', 'Consolas', monospace;
+  }
+  
+  /* Blinking cursor effect */
+  .cursor {
+    display: inline-block;
+    width: 10px;
+    height: 1.2em;
+    background-color: var(--conifer);
+    margin-left: 5px;
+    animation: blink 1s step-end infinite;
+    vertical-align: text-bottom;
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+</style>

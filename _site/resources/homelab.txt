@@ -1,0 +1,5 @@
+Resources for building a homelab:
+https://github.com/reswob10/HomeLabResources
+
+Net-Exec Lab:
+https://github.com/Pennyw0rth/NetExec-Lab
