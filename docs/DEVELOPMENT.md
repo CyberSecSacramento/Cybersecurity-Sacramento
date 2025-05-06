@@ -13,6 +13,7 @@ This guide provides detailed information for developers working on the DC916 web
 - [JavaScript Features](#javascript-features)
 - [Adding New Pages](#adding-new-pages)
 - [Working with Resources](#working-with-resources)
+- [Deployment Scripts](#deployment-scripts)
 - [Performance Optimization](#performance-optimization)
 - [SEO Considerations](#seo-considerations)
 - [Accessibility](#accessibility)
@@ -29,6 +30,9 @@ graph TD
     D[Data Files] --> B
     E[Configuration] --> B
     B --> F[Static HTML Site]
+    F --> G[GitHub Pages Deployment]
+    F --> H[Local Build Deployment]
+    H --> I[Manual Push to GitHub]
 ```
 
 Key Jekyll features used in this project:
@@ -279,6 +283,132 @@ To add a new resource category:
 1. Create a new Markdown file in `resources/pages/`
 2. Add any resource files to `resources/`
 3. Update the resource grid in `resources.md` to include your new category
+
+## Deployment Scripts
+
+The repository includes two important scripts to help with development and deployment:
+
+### serve.sh
+
+The `serve.sh` script simplifies the local development process:
+
+```bash
+#!/bin/bash
+
+# Script to run the Jekyll site locally
+
+# Check if Ruby is installed
+if ! command -v ruby &> /dev/null; then
+    echo "Ruby is not installed. Please install Ruby before running this script."
+    exit 1
+fi
+
+# Check if Bundler is installed
+if ! command -v bundle &> /dev/null; then
+    echo "Bundler is not installed. Installing Bundler..."
+    gem install bundler --user-install
+fi
+
+# Install dependencies locally to avoid permission issues
+echo "Installing dependencies locally..."
+bundle config set --local path 'vendor/bundle'
+bundle install
+
+# Run Jekyll server
+echo "Starting Jekyll server..."
+bundle exec jekyll serve --livereload
+```
+
+To use this script:
+1. Make the script executable: `chmod +x serve.sh`
+2. Run the script: `./serve.sh`
+
+### deploy.sh
+
+The `deploy.sh` script handles the deployment process to GitHub Pages:
+
+```bash
+#!/bin/bash
+
+# Script to deploy the Jekyll site to GitHub Pages
+
+# Check if Git is installed
+if ! command -v git &> /dev/null; then
+    echo "Git is not installed. Please install Git before running this script."
+    exit 1
+fi
+
+# Check if we're in a Git repository
+if ! git rev-parse --is-inside-work-tree &> /dev/null; then
+    echo "Not in a Git repository. Please run this script from within a Git repository."
+    exit 1
+fi
+
+# Check if the current branch is site-upgrade
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+if [ "$current_branch" != "site-upgrade" ]; then
+    echo "You are not on the site-upgrade branch. Please switch to site-upgrade branch before running this script."
+    exit 1
+fi
+
+# Check if there are uncommitted changes
+if ! git diff-index --quiet HEAD --; then
+    echo "There are uncommitted changes. Please commit or stash them before running this script."
+    exit 1
+fi
+
+# Install dependencies locally to avoid permission issues
+echo "Installing dependencies locally..."
+bundle config set --local path 'vendor/bundle'
+bundle install
+
+# Build the site
+echo "Building the site..."
+bundle exec jekyll build
+
+# Switch to main branch
+echo "Switching to main branch..."
+git checkout main
+
+# Copy the built site from _site to the main branch
+echo "Copying built site to main branch..."
+cp -r _site/* .
+
+# Add all changes to Git
+echo "Adding changes to Git..."
+git add .
+
+# Commit changes
+echo "Committing changes..."
+git commit -m "Deploy site update from site-upgrade branch"
+
+# Push to GitHub
+echo "Pushing to GitHub..."
+git push origin main
+
+# Switch back to site-upgrade branch
+echo "Switching back to site-upgrade branch..."
+git checkout site-upgrade
+
+echo "Deployment complete! The site should be live shortly."
+```
+
+To use this script:
+1. Make the script executable: `chmod +x deploy.sh`
+2. Ensure you're on the `site-upgrade` branch
+3. Commit all your changes
+4. Run the script: `./deploy.sh`
+
+### Deployment Strategy
+
+We use a local build and deploy strategy rather than relying on GitHub Pages' built-in Jekyll processing. This approach gives us several advantages:
+
+1. **Plugin Support**: We can use any Jekyll plugin, not just those supported by GitHub Pages
+2. **Version Control**: We maintain separate branches for source code (`site-upgrade`) and the built site (`main`)
+3. **Build Control**: We have complete control over the build process
+4. **Troubleshooting**: It's easier to debug build issues locally
+
+This strategy is particularly important because GitHub Pages has limitations on which Jekyll plugins it supports and how it builds Jekyll sites.
 
 ## Performance Optimization
 
