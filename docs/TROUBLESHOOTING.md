@@ -187,7 +187,21 @@ gem sources -a http://rubygems.org/
 1. Check the build logs in the GitHub repository settings
 2. Ensure your repository is properly configured for GitHub Pages
 3. Verify that your Jekyll configuration is compatible with GitHub Pages
-4. Remove any unsupported plugins or use GitHub Actions for custom builds
+4. Use our local build and deploy strategy with the `deploy.sh` script:
+   ```bash
+   ./deploy.sh
+   ```
+   This script builds the site locally and pushes the built files to the main branch, bypassing GitHub Pages' built-in Jekyll processing.
+
+### Plugin Compatibility Issues
+
+**Issue**: GitHub Pages doesn't support certain Jekyll plugins that you want to use.
+
+**Solution**:
+1. Use our local build and deploy strategy with the `deploy.sh` script
+2. This approach allows you to use any Jekyll plugin, not just those supported by GitHub Pages
+3. The key insight is that GitHub Pages will serve static HTML files without trying to build them if they're already in the repository
+4. Our deployment strategy takes advantage of this by building the site locally and pushing the built files to the main branch
 
 ### Custom Domain Issues
 

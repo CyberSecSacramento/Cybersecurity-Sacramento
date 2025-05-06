@@ -174,22 +174,23 @@ flowchart TD
     E --> F{Satisfied?}
     F -->|No| D
     F -->|Yes| G[Commit Changes]
-    G --> H[Push to GitHub]
-    H --> I[GitHub Pages Builds Site]
+    G --> H[Build Site Locally]
+    H --> I[Deploy to GitHub]
     I --> J[Site is Live]
 ```
 
 1. **Create a branch** for your changes:
    ```bash
-   git checkout -b feature/your-feature-name
+   git checkout -b site-upgrade
    ```
 
 2. **Make your changes** to the site content or structure
 
-3. **Preview your changes** locally:
+3. **Preview your changes** locally using the serve script:
    ```bash
-   bundle exec jekyll serve
+   ./serve.sh
    ```
+   This will install dependencies locally and start the Jekyll server with livereload.
 
 4. **Commit your changes**:
    ```bash
@@ -197,12 +198,20 @@ flowchart TD
    git commit -m "Description of changes"
    ```
 
-5. **Push to GitHub**:
+5. **Deploy your changes** using the deploy script:
    ```bash
-   git push origin feature/your-feature-name
+   ./deploy.sh
    ```
+   This script will:
+   - Build the site locally
+   - Switch to the main branch
+   - Copy the built site to the main branch
+   - Commit and push the changes
+   - Switch back to the site-upgrade branch
 
-6. **Create a Pull Request** for review
+6. **View your deployed site** at [dc916.com](https://dc916.com)
+
+> **Note**: We use a local build and deploy strategy rather than relying on GitHub Pages' built-in Jekyll processing. This gives us more control over the build process and allows us to use plugins that aren't supported by GitHub Pages.
 
 ## 🎨 Customization
 
