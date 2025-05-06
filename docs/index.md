@@ -13,6 +13,7 @@ Welcome to the documentation for the DC916 (Cybersecurity Sacramento) website. T
 |----------|-------------|
 | [Installation Guide](INSTALLATION.md) | Detailed instructions for setting up the development environment on different operating systems |
 | [Development Guide](DEVELOPMENT.md) | Information about Jekyll features, development workflow, and best practices |
+| [GitHub Pages Deployment](GITHUB_PAGES.md) | Instructions for deploying the website to GitHub Pages |
 | [Site Structure](SITE_STRUCTURE.md) | Detailed explanation of the website's architecture with diagrams |
 | [Contributing Guidelines](CONTRIBUTING.md) | Guidelines for contributing to the project, including coding standards and pull request process |
 | [Troubleshooting](TROUBLESHOOTING.md) | Solutions to common issues you might encounter |
@@ -36,6 +37,7 @@ If you're interested in contributing to the project, please read the [Contributi
 graph TD
     A[Documentation Home] --> B[Installation Guide]
     A --> C[Development Guide]
+    A --> G[GitHub Pages Deployment]
     A --> D[Site Structure]
     A --> E[Contributing Guidelines]
     A --> F[Troubleshooting]
@@ -48,6 +50,11 @@ graph TD
     C --> C2[Project Structure]
     C --> C3[Templating & Styling]
     C --> C4[Advanced Features]
+    
+    G --> G1[Local vs GitHub Pages]
+    G --> G2[Deployment Steps]
+    G --> G3[Configuration]
+    G --> G4[Troubleshooting]
     
     D --> D1[Overall Architecture]
     D --> D2[Directory Structure]
