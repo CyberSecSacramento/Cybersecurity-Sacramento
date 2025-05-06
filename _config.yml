@@ -6,9 +6,11 @@ baseurl: ""
 
 # Build settings
 markdown: kramdown
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-github-metadata
 
 # Theme customization
 show_downloads: false
@@ -25,3 +27,6 @@ defaults:
       path: ""
     values:
       layout: default
+
+# GitHub Pages settings
+repository: CyberSecSacramento/Cybersecurity-Sacramento
