@@ -204,6 +204,16 @@ title: Wireless Hacking Resources
 .section-content {
   padding: 1.5rem;
   background: rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.section-content.collapsed {
+  padding-top: 0;
+  padding-bottom: 0;
+  max-height: 0 !important;
+  border-top: none;
+  border-bottom: none;
 }
 
 /* Resource Cards Styles */
@@ -371,17 +381,19 @@ document.addEventListener('DOMContentLoaded', function() {
       // Toggle the visibility of the content
       const content = this.nextElementSibling;
       if (this.classList.contains('active')) {
-        content.style.maxHeight = content.scrollHeight + "px";
+        content.classList.remove('collapsed');
+        setTimeout(() => {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }, 10);
       } else {
         content.style.maxHeight = "0";
+        content.classList.add('collapsed');
       }
     });
     
     // Set initial state (expanded)
     const content = section.nextElementSibling;
     content.style.maxHeight = content.scrollHeight + "px";
-    content.style.overflow = "hidden";
-    content.style.transition = "max-height 0.3s ease";
   });
 });
 </script>
