@@ -9,8 +9,9 @@
       <div class="footer-section">
         <h3>Connect</h3>
         <ul class="social-links">
-          <li><a href="https://twitter.com/dc916" target="_blank">Twitter</a></li>
-          <li><a href="https://github.com/CyberSecSacramento" target="_blank">GitHub</a></li>
+          {% for social in site.data.social_links %}
+          <li><a href="{{ social.url }}" target="_blank">{{ social.name }}</a></li>
+          {% endfor %}
         </ul>
       </div>
       <div class="footer-section">

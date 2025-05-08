@@ -603,6 +603,7 @@ title: Road to DEF CON 33
           <li><i class="fas fa-handshake"></i> Network and make connections</li>
           <li><i class="fas fa-calendar-check"></i> Check the schedule daily for changes</li>
           <li><i class="fas fa-water"></i> Stay hydrated and take breaks</li>
+          <li><i class="fas fa-mobile-alt"></i> Use the <a href="https://github.com/junctor/hackertracker-web" target="_blank">Hacker Tracker</a> app to navigate the schedule</li>
         </ul>
       </div>
       
@@ -1714,6 +1715,7 @@ window.addEventListener('load', function() {
   
   // Array of DEF CON survival tips
   const defconTips = [
+    "Use the Hacker Tracker app to navigate the DEF CON schedule - check it out at https://github.com/junctor/hackertracker-web",
     "Always bring cash - DEF CON is a cash-only event and many vendors don't accept cards.",
     "Stay hydrated! Vegas is hot and conference centers are dry. Carry a water bottle.",
     "Wear comfortable shoes - you'll be walking a lot between talks and villages.",

@@ -1,0 +1,42 @@
+# Social media links for DC916/Cybersecurity Sacramento
+# This file centralizes all social media links for easier maintenance
+
+- name: Twitter
+  url: https://twitter.com/CyberSec916
+  icon: fa-brands fa-twitter
+  title: Twitter
+
+- name: Instagram
+  url: https://instagram.com/cybersec916
+  icon: fa-brands fa-instagram
+  title: Instagram
+
+- name: Facebook
+  url: https://www.facebook.com/profile.php?id=61562053185228
+  icon: fa-brands fa-facebook
+  title: Facebook
+
+- name: Threads
+  url: https://www.threads.net/@cybersec916
+  icon: fa-brands fa-threads
+  title: Threads
+
+- name: Bluesky
+  url: https://bsky.app/profile/cybersec916.com
+  icon: fa-brands fa-bluesky
+  title: Bluesky
+
+- name: Discord
+  url: https://discord.gg/Dkn5DZTaGh
+  icon: fa-brands fa-discord
+  title: Discord
+
+- name: DEF CON Forums
+  url: https://forum.defcon.org/node/231442
+  icon: fas fa-users
+  title: DEF CON Forums
+
+- name: GitHub
+  url: https://github.com/CyberSecSacramento/Cybersecurity-Sacramento
+  icon: fa-brands fa-github
+  title: GitHub Repository

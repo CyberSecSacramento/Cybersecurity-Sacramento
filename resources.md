@@ -613,17 +613,17 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     'physical-safety': {
       title: 'DC916 Physical Safety Guide',
-      path: 'https://github.com/CyberSecSacramento/Cybersecurity-Sacramento/blob/main/resources/DC916%20Physical%20Safety%20Flyer.pdf',
+      path: 'https://github.com/CyberSecSacramento/Cybersecurity-Sacramento/raw/main/resources/DC916%20Physical%20Safety%20Flyer.pdf',
       isPdf: true
     },
     'social-media-safety': {
       title: 'Social Media Safety Guidelines',
-      path: 'https://github.com/CyberSecSacramento/Cybersecurity-Sacramento/blob/main/resources/DC916%20Social%20Media%20Safety%20Flyer.pdf',
+      path: 'https://github.com/CyberSecSacramento/Cybersecurity-Sacramento/raw/main/resources/DC916%20Social%20Media%20Safety%20Flyer.pdf',
       isPdf: true
     },
     'online-security': {
       title: 'Online Security Best Practices',
-      path: 'https://github.com/CyberSecSacramento/Cybersecurity-Sacramento/blob/main/resources/DC916-OnlineSecurityFlyer.pdf',
+      path: 'https://github.com/CyberSecSacramento/Cybersecurity-Sacramento/raw/main/resources/DC916-OnlineSecurityFlyer.pdf',
       isPdf: true
     }
   };
@@ -650,6 +650,12 @@ document.addEventListener('DOMContentLoaded', function() {
           pdfViewer.style.display = 'block';
           pdfTitle.textContent = info.title;
           pdfLink.href = info.path;
+          
+          // Make sure the PDF link works by setting an onclick handler
+          pdfLink.onclick = function(e) {
+            window.open(info.path, '_blank');
+            return false;
+          };
         }, 800);
       } else {
         // For HTML resources, navigate to the page

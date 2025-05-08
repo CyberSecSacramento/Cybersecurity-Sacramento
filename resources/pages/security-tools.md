@@ -37,13 +37,13 @@ title: Security Analysis Tools
   
   <div class="resource-section">
     <h2><i class="fas fa-user-secret"></i> Penetration Testing</h2>
-    <div class="tool-grid">
-      <div class="tool-card placeholder-card">
-        <div class="tool-icon">
+    <div class="resource-cards">
+      <div class="resource-card placeholder-card">
+        <div class="card-header">
           <i class="fas fa-user-ninja"></i>
-        </div>
-        <div class="tool-info">
           <h3>Penetration Testing Tools</h3>
+        </div>
+        <div class="card-content">
           <p>This section will list common penetration testing tools and frameworks</p>
           <div class="placeholder-message">
             <i class="fas fa-user-secret"></i>

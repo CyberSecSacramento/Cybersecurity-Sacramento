@@ -51,17 +51,13 @@
                     </div>
                   </li>
                   <li><a href="{{ '/resources' | relative_url }}"><i class="fas fa-database"></i> Resources</a></li>
-                  <li><a href="https://discord.gg/Dkn5DZTaGh" target="_blank"><i class="fa-brands fa-discord"></i> Discord</a></li>
                 </ul>
               </nav>
               
               <div class="social-icons">
-                <a href="https://twitter.com/CyberSec916" target="_blank" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://instagram.com/cybersec916" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.facebook.com/profile.php?id=61562053185228" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.threads.net/@cybersec916" target="_blank" title="Threads"><i class="fa-brands fa-threads"></i></a>
-                <a href="https://bsky.app/profile/cybersec916.com" target="_blank" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
-                <a href="https://forum.defcon.org/node/231442" target="_blank" title="DEF CON Forums"><i class="fas fa-users"></i></a>
+                {% for social in site.data.social_links %}
+                <a href="{{ social.url }}" target="_blank" title="{{ social.title }}"><i class="{{ social.icon }}"></i></a>
+                {% endfor %}
               </div>
             </div>
           </div>

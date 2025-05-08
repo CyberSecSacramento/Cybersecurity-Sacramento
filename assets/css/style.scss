@@ -296,7 +296,7 @@ header h2 {
 /* Social Icons */
 .social-icons {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 0.5rem;
   margin-left: 1.5rem;
@@ -454,12 +454,12 @@ footer i {
   
   .social-icons {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     width: 100%;
-    margin-top: 0.75rem;
-    margin-left: 0;
-    gap: 0.5rem;
+    max-width: 280px;
+    margin: 0.75rem auto 0;
+    gap: 0.3rem;
     justify-content: center;
   }
 }

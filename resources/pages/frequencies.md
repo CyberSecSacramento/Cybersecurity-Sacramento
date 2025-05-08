@@ -37,13 +37,13 @@ title: Radio Frequencies & Signal Analysis
   
   <div class="resource-section">
     <h2><i class="fas fa-tools"></i> SDR Hardware</h2>
-    <div class="tool-grid">
-      <div class="tool-card placeholder-card">
-        <div class="tool-icon">
+    <div class="resource-cards">
+      <div class="resource-card placeholder-card">
+        <div class="card-header">
           <i class="fas fa-satellite-dish"></i>
-        </div>
-        <div class="tool-info">
           <h3>Software Defined Radio Hardware</h3>
+        </div>
+        <div class="card-content">
           <p>This section will list recommended SDR hardware for RF hacking</p>
           <div class="placeholder-message">
             <i class="fas fa-broadcast-tower"></i>

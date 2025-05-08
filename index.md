@@ -100,7 +100,3 @@ layout: default
     <i class="fas fa-heart"></i> Please consider donating to Made Studio for generously hosting us
   </a>
 </div>
-
-<div class="footer-credit">
-  <p>Designed with <i class="fas fa-heart"></i> by Kali</p>
-</div>
