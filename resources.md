@@ -173,18 +173,37 @@ title: Hacker Resources
   font-family: 'Courier New', monospace;
   color: var(--kings-silver);
   font-size: 1.2rem;
+  max-width: 100%;
+  overflow: hidden;
+  text-align: center;
 }
 
 .typing-effect {
   border-right: 2px solid var(--conifer);
   white-space: nowrap;
   overflow: hidden;
+  display: inline-block;
+  max-width: 100%;
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
+}
+
+/* Ensure typing effect works on mobile */
+@media (max-width: 768px) {
+  .resources-subtitle {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+  .typing-effect {
+    font-size: 1rem;
+    max-width: 100%;
+  }
 }
 
 @keyframes blink-caret {
@@ -594,17 +613,17 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     'physical-safety': {
       title: 'DC916 Physical Safety Guide',
-      path: 'https://github.com/CyberSecSacramento/Cybersecurity-Sacramento/raw/main/resources/DC916 Physical Safety Flyer.pdf',
+      path: 'https://github.com/CyberSecSacramento/Cybersecurity-Sacramento/blob/main/resources/DC916%20Physical%20Safety%20Flyer.pdf',
       isPdf: true
     },
     'social-media-safety': {
       title: 'Social Media Safety Guidelines',
-      path: 'https://github.com/CyberSecSacramento/Cybersecurity-Sacramento/raw/main/resources/DC916 Social Media Safety Flyer.pdf',
+      path: 'https://github.com/CyberSecSacramento/Cybersecurity-Sacramento/blob/main/resources/DC916%20Social%20Media%20Safety%20Flyer.pdf',
       isPdf: true
     },
     'online-security': {
       title: 'Online Security Best Practices',
-      path: 'https://github.com/CyberSecSacramento/Cybersecurity-Sacramento/raw/main/resources/DC916-OnlineSecurityFlyer.pdf',
+      path: 'https://github.com/CyberSecSacramento/Cybersecurity-Sacramento/blob/main/resources/DC916-OnlineSecurityFlyer.pdf',
       isPdf: true
     }
   };
