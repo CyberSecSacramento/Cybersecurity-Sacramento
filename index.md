@@ -27,7 +27,7 @@ layout: default
 
 <h2>About</h2>
 
-<p>A group in the greater Sacramento County area associated with <a href="https://defcon.org">DEF CON</a> Groups for hackers, makers, tinkerers and security enthusiasts/professionals/students to meet and share projects/ideas. Current leader is <a href="https://bsky.app/profile/radicalkjax.com">RadicalKjax</a>, please reach out to her or any of our social media accounts for any inquiries.</p>
+<p>A group in the greater Sacramento County area associated with <a href="https://defcon.org">DEF CON</a> Groups for hackers, makers, tinkerers and security enthusiasts/professionals/students to meet and share projects/ideas. Current Point of Contact (PoC) is <a href="https://bsky.app/profile/radicalkjax.com">RadicalKjax</a>, please reach out to her or any of our social media accounts for any inquiries.</p>
 
 <h2>Location</h2>
 
@@ -55,7 +55,7 @@ layout: default
       <i class="fas fa-desktop"></i> Virtually on Discord
     </p>
     <p class="next-meeting">
-      <i class="fas fa-calendar-day"></i> Next meeting: May 14th from 7PM - 8:30PM
+      <i class="fas fa-calendar-day"></i> Next meeting: June 11th from 7PM - 8:30PM
     </p>
   </div>
 </div>
