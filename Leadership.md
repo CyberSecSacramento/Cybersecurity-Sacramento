@@ -23,10 +23,8 @@ title: Leadership
         <h2><i class="fas fa-user-shield"></i> Current Leader & POC</h2>
         <div class="leader-card">
           <div class="leader-info">
-            <div class="leader-name">Kali Jackson</div>
+            <div class="leader-name">echo419</div>
             <div class="leader-handle">
-              <a href="https://bsky.app/profile/radicalkjax.com" target="_blank">
-                <i class="fa-brands fa-bluesky"></i> radicalkjax
               </a>
             </div>
           </div>
@@ -43,16 +41,7 @@ title: Leadership
         </div>
       </div>
       
-      <div class="leadership-section">
-        <h2><i class="fas fa-project-diagram"></i> Project Organizer(s)</h2>
-        <div class="leader-card">
-          <div class="leader-info">
-            <div class="leader-name">Echo419</div>
-            <div class="leader-role">Project Coordinator</div>
-          </div>
-        </div>
-      </div>
-    </div>
+
     
     <p><span class="prompt">$</span> <span class="command">cat leadership_notes.txt</span></p>
     <div class="response">
