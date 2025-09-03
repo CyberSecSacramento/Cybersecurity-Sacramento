@@ -55,7 +55,7 @@ layout: default
       <i class="fas fa-desktop"></i> Virtually on Discord
     </p>
     <p class="next-meeting">
-      <i class="fas fa-calendar-day"></i> Next meeting: Wednesday August 13th from 7PM - 8:30PM
+      <i class="fas fa-calendar-day"></i> Next meeting: Wednesday September 10th from 7PM - 8:30PM
     </p>
   </div>
 </div>
