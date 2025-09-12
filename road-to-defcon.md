@@ -1,17 +1,17 @@
 ---
 layout: default
-title: Road to DEF CON 33
+title: Road to DEF CON 34
 ---
 
-# The Road to DEF CON 33
+# The Road to DEF CON 34
 
 <div class="defcon-header">
   <div class="defcon-logo">
-    <i class="fas fa-skull-crossbones"></i> DEF CON 33
+    <i class="fas fa-skull-crossbones"></i> DEF CON 34
   </div>
   <div class="defcon-details">
     <div class="detail-item">
-      <i class="fas fa-calendar-alt"></i> August 7-10, 2025
+      <i class="fas fa-calendar-alt"></i> Dates TBD
     </div>
     <div class="detail-item">
       <i class="fas fa-map-marker-alt"></i> Las Vegas Convention Center
